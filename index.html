@@ -3,24 +3,26 @@ layout: default
 title: Home
 ---
 
-<section class="content">
- 
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
 
-  <h2>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </h2>
+<ul class="listing">
 
-  <section class="post-date">
-    {{ post.date | date: '%B %d, %Y' }}
-  </section>
-  
-  <p>
-  
-	{{ post.content | split:'<!--more-->' | first }}
-  
-  <hr>
+{% for post in site.posts %}
+  {% assign currentdate = post.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    {% unless post.draft %}
+    <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <ul>
+    {% assign date = currentdate %}
+    {% endunless %}
+  {% endif %}
+    {% unless post.draft %}
+    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> | <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endunless %}
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+    
+</ul>
 
   <!-- Bio here -->
   <section class="meta">
