@@ -2,18 +2,26 @@
 permalink:           blogposts/:categories/:title
 
 # Setup
-title:               AnalyseThis
-tagline:             'Website and blog of Herman Hellenes'
-description:         'Computational Physics M.Sc. and Senior Data Scientist at EY.'
-url:                 http://herman-hellenes.github.io
+title:               Wicked Good Data
+tagline:             'Website and blog of Daniel P. Martin'
+description:         'Quantitative Psychology PhD and Senior Data Scientist at McKinsey & Company.'
+url:                 http://dpmartin42.github.io
 baseurl:             ''
 highlighter:         rouge
 
 # About/contact
 author:
-  name:              Herman Hellenes
-  email:             herman.hellenes@gmail.com
+  name:              Dan Martin
+  email:             dpmartin42@gmail.com
 
+# Set up google analytics
+
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-123-12'
+  getclicky :
+    site_id : UA-26032429-1
 
 # Custom vars
 version:             1.0.0

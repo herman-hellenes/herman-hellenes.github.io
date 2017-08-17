@@ -1,9 +1,45 @@
 ---
 layout: default
-title: Herman Hellenes
+title: Home
 ---
-<div class="blurb">
-	<h1>Dear reader, welcome to this miserable website </h1>
-	<p>This webpage will solely be dedicated to my first attempt of documenting thoughts I find facinating. 
-	Who knows, maybe some bloke can find it interesting one day. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<section class="content">
+ 
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+
+  <h2>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h2>
+
+  <section class="post-date">
+    {{ post.date | date: '%B %d, %Y' }}
+  </section>
+  
+  <p>
+  
+	{{ post.content | split:'<!--more-->' | first }}
+  
+  <hr>
+
+  <!-- Bio here -->
+  <section class="meta">
+    <h3>About</h3>
+    <section class="copy">
+
+      <p>
+        I am a Senior Data Scientist for Organizational Solutions at McKinsey & Company, interested in
+        statistics, data mining/machine learning, education, and open science, among other things. 
+        All opinions and views are my own and do not represent my employer. 
+      </p>
+      
+      
+      
+      <a href="{{ post.url }}#disqus_thread">Comments</a>
+
+    </section>
+    
+    <p>
+
+
+</section>
