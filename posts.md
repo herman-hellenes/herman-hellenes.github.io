@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Posts
+title: Home
 ---
 
 <ul class="listing">
