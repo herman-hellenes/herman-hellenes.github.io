@@ -9,10 +9,10 @@ date: 2017-08-18
 ## Your modelling tool
 
 So, how to do some proper modelling? You use some kind of programming languaage. There are many options, however I will do some clarifications on what you should not choose. Proprietary software is usually a very bad choice, compared to open source. Why? 
-1: It's damn expensive.
-2: There is a "small" group of people in the firm that have developed it. Even though for instance Microsoft, SAS etc. are huge, there are still many more Python developers out there. Open source makes everyone able to contribute, and yes, there are a horde of bug-fixers among them. Trust people instead of corporations. 
-3: With open source you can actually see how it's put together. Everyone have access to everything. Thus you can look in all source code to understand what is going on, as well as tuning, fixing and further extend stuff.
-4: Solving problems is completely another story with open source. The resources are just so incrediible huge. There are blogs, forums, tutorials, you names it, for everything. I personally get stuck immidiately with a proprietary software. Googeling is the way to go, and you often end up at [Stackoverflow](https://stackoverflow.com/), where in April 2014 Stack Overflow had over 4,000,000 registered users.
+1. It's damn expensive.
+2. There is a "small" group of people in the firm that have developed it. Even though for instance Microsoft, SAS etc. are huge, there are still many more Python developers out there. Open source makes everyone able to contribute, and yes, there are a horde of bug-fixers among them. Trust people instead of corporations. 
+3. With open source you can actually see how it's put together. Everyone have access to everything. Thus you can look in all source code to understand what is going on, as well as tuning, fixing and further extend stuff.
+4. Solving problems is completely another story with open source. The resources are just so incrediible huge. There are blogs, forums, tutorials, you names it, for everything. I personally get stuck immidiately with a proprietary software. Googeling is the way to go, and you often end up at [Stackoverflow](https://stackoverflow.com/), where in April 2014 Stack Overflow had over 4,000,000 registered users.
 
 That being said, I'll mention the appropriate languages for a Data Scientist. The most popular are Python and R. Those are brilliant, due to
 1. They are open source, and very flexible. You can basically "do anything".
