@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful tools for a Data Scientist - Which, and How to get startet?"
-date: 2016-12-14
+date: 2017-08-18
 ---
 
 
