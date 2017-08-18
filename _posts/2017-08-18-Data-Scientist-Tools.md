@@ -15,13 +15,13 @@ So, how to do some proper modelling? You use some kind of programming languaage.
 4: Solving problems is completely another story with open source. The resources are just so incrediible huge. There are blogs, forums, tutorials, you names it, for everything. I personally get stuck immidiately with a proprietary software. Googeling is the way to go, and you often end up at [Stackoverflow](https://stackoverflow.com/), where in April 2014 Stack Overflow had over 4,000,000 registered users.
 
 That being said, I'll mention the appropriate languages for a Data Scientist. The most popular are Python and R. Those are brilliant, due to
-1: They are open source, and very flexible. You can basically "do anything".
-2: They are rather easy, compared to e.g. C++. As well are they less flexible on the low-level scale and slower. 
-3: You have so many available libraries, specially those usable for Data Science. Referring to the point above, that R and Python are not really high performance languages, most underlying functions and libraries are written in some kind of C-languages. Thus, if you leverage the libraries properly, you more or less get C-speed. Avoind doing things like "for-loops" and other computational task straight out, use instead the build in functions of the libraries.
+1. They are open source, and very flexible. You can basically "do anything".
+2. They are rather easy, compared to e.g. C++. As well are they less flexible on the low-level scale and slower. 
+3. You have so many available libraries, specially those usable for Data Science. Referring to the point above, that R and Python are not really high performance languages, most underlying functions and libraries are written in some kind of C-languages. Thus, if you leverage the libraries properly, you more or less get C-speed. Avoind doing things like "for-loops" and other computational task straight out, use instead the build in functions of the libraries.
 
 So; R or Python? It doesn't matter. Python is perhaps more flexible, while R is more speciallized for your core Data Science work. Lastly I quickly mention the key-libraries for each:
-- Python : [Pandas](http://pandas.pydata.org/), [scikit-learn](http://scikit-learn.org/stable/sci),  [NumPy](http://www.numpy.org/) and [Matplotlib](https://matplotlib.org/).
-- R : [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), (caret)[http://topepo.github.io/caret/index.html] and [ggplot2](http://ggplot2.org/)
+* Python : [Pandas](http://pandas.pydata.org/), [scikit-learn](http://scikit-learn.org/stable/sci),  [NumPy](http://www.numpy.org/) and [Matplotlib](https://matplotlib.org/).
+* R : [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), (caret)[http://topepo.github.io/caret/index.html] and [ggplot2](http://ggplot2.org/)
 
 ## Share and Keep track on your Code - Version Control with Git for Beginners
 
