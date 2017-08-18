@@ -21,7 +21,7 @@ That being said, I'll mention the appropriate languages for a Data Scientist. Th
 
 So; R or Python? It doesn't matter. Python is perhaps more flexible, while R is more speciallized for your core Data Science work. Lastly I quickly mention the key-libraries for each:
 * Python : [Pandas](http://pandas.pydata.org/), [scikit-learn](http://scikit-learn.org/stable/sci),  [NumPy](http://www.numpy.org/) and [Matplotlib](https://matplotlib.org/).
-* R : [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), (caret)[http://topepo.github.io/caret/index.html] and [ggplot2](http://ggplot2.org/)
+* R : [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), [caret](http://topepo.github.io/caret/index.html) and [ggplot2](http://ggplot2.org/)
 
 ## Share and Keep track on your Code - Version Control with Git for Beginners
 
