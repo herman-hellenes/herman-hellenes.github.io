@@ -10,7 +10,7 @@ Hey there you beautiful ladies and gentlemen, señoras y señores, damen und her
 * Manage databases in order to.... handle your data!
 
 
-## Your modelling tool
+### Your modelling tool
 
 So, how to do some proper modelling? You use some kind of programming languaage. There are many options, however I will do some clarifications on what you should not choose. Proprietary software is usually a very bad choice, compared to open source. Why? 
 1. There is a "small" group of people in the firm that have developed it. Even though for instance Microsoft, SAS etc. are huge, there are still many more Python developers out there. Open source makes everyone able to contribute, and yes, there are a horde of bug-fixers among them. Trust people instead of corporations. 
