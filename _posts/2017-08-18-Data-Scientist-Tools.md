@@ -27,7 +27,7 @@ So; R or Python? It doesn't matter. Python is perhaps more flexible, while R is 
 * Python : [Pandas](http://pandas.pydata.org/), [scikit-learn](http://scikit-learn.org/stable/sci),  [NumPy](http://www.numpy.org/) and [Matplotlib](https://matplotlib.org/).
 * R : [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html), [caret](http://topepo.github.io/caret/index.html) and [ggplot2](http://ggplot2.org/)
 
-## Share and Keep track on your Code - Version Control with Git for Beginners
+### Share and Keep track on your Code - Version Control with Git for Beginners
 
 Have you ever changed you code that worked, for so regretting this and longing back to the previous stage? Or just want to see how your code looked like a month a go? Or easily collaborate with other developers ? Git solves all these problems, and many more.
 
@@ -40,7 +40,7 @@ There are many out there who already have given excellenet tutorials on Git, and
 
 
 
-## Managing databases
+### Managing databases
 
 Data Scientist work with huge sets of data. If trying to store in normal files (flat files), you soon ending up with a a huge mess. Git is not your way to solve this, but by using databases instead. We extract data from the databases, often stored at a server (or could be your own laptop, however not very efficient and "impossible" to collaborate). We also build databases and store our data there. There are many options for where the database should be; in a cloud service, a local server, your computer etc. 
 
