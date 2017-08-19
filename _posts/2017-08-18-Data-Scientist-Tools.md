@@ -27,11 +27,12 @@ So; R or Python? It doesn't matter. Python is perhaps more flexible, while R is 
 
 Have you ever changed you code that worked, for so regretting this and longing back to the previous stage? Or just want to see how your code looked like a month a go? Or easily collaborate with other developers ? Git solves all these problems, and many more.
 
-To put it straight; Git is a must-have tool for developers for avioding a huge mess. I must say that Git is a bit tricky to understand, since it is different from just normal saving and file storage. It is a "layer on top of this", so that Git gives you a bit of an inception feeling, a new dimension to what you are familiar with. 
+To put it straight; Git is a must-have tool for developers for avioding a huge mess. Still, I continue to get suprised of how few who actually uses it within the industry. I must say that Git is a bit tricky to understand, since it is different from just normal saving and file storage. It is a "layer on top of this", so that Git gives you a bit of an inception feeling, a new dimension to what you are familiar with. The workflow below is the one most typical.
+
+![center](/figs/2017-08-18-Data-Scientist-Tools/basic-remote-workflow.png)
 
 There are many out there who already have given excellenet tutorials on Git, and much better than what I can wrap together. Therefore I pass the ball over to some other sources when it comes to usage and undestanding. There are many sources to choose from, but I feel the following book to be the best way of learning Git. See [Pro Git book, written by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), thanks for making this great tutorial.
 
-![center](/figs/2017-08-18-Data-Scientist-Tools/basic-remote-workflow.png)
 
 
 
