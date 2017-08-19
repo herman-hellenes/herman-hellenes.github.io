@@ -27,7 +27,7 @@ So; R or Python? It doesn't matter. Python is perhaps more flexible, while R is 
 
 Have you ever changed you code that worked, for so regretting this and longing back to the previous stage? Or just want to see how your code looked like a month a go? Or easily collaborate with other developers ? Git solves all these problems, and many more.
 
-To put it straight; Git is a must-have tool for developers for avioding a huge mess. Still, I continue to get suprised of how few who actually uses it within the industry. I must say that Git is a bit tricky to understand, since it is different from just normal saving and file storage. It is a "layer on top of this", so that Git gives you a bit of an inception feeling, a new dimension to what you are familiar with. The workflow below is the one most typical.
+To put it straight; Git is a must-have tool for developers for avioding a huge mess. Still, I continue to get suprised of how few who actually uses it within the industry. I must say that Git is a bit tricky to understand, since it is different from just normal saving and file storage. It is a "layer on top of this", so that Git gives you a bit of an inception feeling, a new dimension to what you are familiar with. The workflow below is the one most typical (made by www.git-tower.com).
 
 ![center](/figs/2017-08-18-Data-Scientist-Tools/basic-remote-workflow.png)
 
