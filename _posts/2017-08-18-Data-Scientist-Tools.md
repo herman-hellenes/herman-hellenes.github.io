@@ -31,6 +31,8 @@ To put it straight; Git is a must-have tool for developers for avioding a huge m
 
 There are many out there who already have given excellenet tutorials on Git, and much better than what I can wrap together. Therefore I pass the ball over to some other sources when it comes to usage and undestanding. There are many sources to choose from, but I feel the following book to be the best way of learning Git. See [Pro Git book, written by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), thanks for making this great tutorial.
 
+![center](/figs/2017-08-18-Data-Scientist-Tools/basic-remote-workflow.png)
+
 
 
 ## Managing databases
