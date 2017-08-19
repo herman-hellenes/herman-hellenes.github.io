@@ -18,6 +18,9 @@ So, how to do some proper modelling? You use some kind of programming languaage.
 2. Solving problems is completely another story with open source. The resources are just so incrediible huge. There are blogs, forums, tutorials, you names it, for everything. I personally get stuck immidiately with a proprietary software. Googeling is the way to go, and you often end up at [Stackoverflow](https://stackoverflow.com/), where in April 2014 Stack Overflow had over 4,000,000 registered users.
 1. For us, most of the open source tools are also free. Proprietary alternatives are usually damn expensive. 
 
+![center](/figs/2017-08-18-Data-Scientist-Tools/R-vs-Python-Data-Science-machine-learning.jpg)
+
+
 That being said, I'll mention the appropriate languages for a Data Scientist. The most popular are Python and R. Those are brilliant, due to
 1. They are open source, and very flexible. You can basically "do anything".
 2. They are rather easy, compared to e.g. C++. As well are they less flexible on the low-level scale and slower. 
