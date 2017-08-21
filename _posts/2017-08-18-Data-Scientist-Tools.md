@@ -40,9 +40,7 @@ To put it straight; Git is a must-have tool for developers for avioding a huge m
 
 There are many out there who already have given excellenet tutorials on Git, and much better than what I can wrap together. Therefore I pass the ball over to some other sources when it comes to usage and undestanding. There are many sources to choose from, but I feel the following book to be the best way of learning Git. See [Pro Git book, written by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), thanks for making this great tutorial.
 
-You can host your repository at Github,
-
-Diffmerge, sourcethree
+You can host your repository at Github, like I do with this website. There are many others, like Gitlab or Bitbucket. If you get a bit tired of using Git Bash, the Unix Shell, there are some GUI clients for you. A selection of these can be found [here](https://git-scm.com/downloads/guis). Lastly, I highly recommend you to use Diffmerge, an application to visually compare and merge files. You can download it [here](https://sourcegear.com/diffmerge/) and a tutorial to use it with the Sourcetree GUI can be found [here](https://www.youtube.com/watch?v=sIwh4UvApMU).
 
 
 ### Managing databases
