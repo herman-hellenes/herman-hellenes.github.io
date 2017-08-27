@@ -30,3 +30,7 @@ What is desicion trees, bagging, boosting, random forrest? A very good book to u
 * Some more intro to the concept of data science
 https://www.coursera.org/learn/data-science-course
 
+* Spark/Scala/Hadoop --> courses
+https://www.coursera.org/learn/scala-spark-big-data
+https://www.udemy.com/scala-and-spark-for-big-data-and-machine-learning/?utm_source=adwords-learn&utm_medium=udemyads&utm_campaign=NEW-AW-PROS-PROF-ROW-DSA-EN-EURO_._ci__._sl_ENG_._vi_PROF_._sd_All_._la_EN_._&utm_content=deal4584&utm_term=_._ag_43090399814_._ad_205975711605_._de_c_._dm__._pl__._ti_dsa-334302743689_._li_1010826_._pd__._&gclid=CjwKCAjwrO_MBRBxEiwAYJnDLFydAnKQXqsOyjd9TgnRde7B_X_XzqhVrYfRyWRvq98aE51iSMRamhoCHukQAvD_BwE
+
