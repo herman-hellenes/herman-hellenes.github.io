@@ -3,12 +3,10 @@ Here I list some topics of upcoming posts:
 * Intro to ML in R - Caret
 * How to measure your ML-model 
 https://topepo.github.io/caret/measuring-performance.html
-https://en.wikipedia.org/wiki/Information_retrieval#Precision
-http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432
+Imbalanced: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432
 https://topepo.github.io/caret/model-training-and-tuning.html#metrics
 http://blog.revolutionanalytics.com/2016/11/calculating-auc.html how to calculate AUC. Må skjønne dette skikkelig
-https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
-what is AUC: http://blog.revolutionanalytics.com/2016/11/calculating-auc.html
+Imbalanced : https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
 Tutorial xgboost : https://xgboost.readthedocs.io/en/latest/model.html
 https://github.com/dmlc/xgboost/blob/master/doc/parameter.md
 
