@@ -4,7 +4,7 @@ title: "Useful tools for a Data Scientist - Which, and How to get startet?"
 date: 2017-08-28
 ---
 
-Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope everything is going well you you. In this post, I will write a bit about the different types of tools I am considering to be vital as a Data Scientist. This is a quick read, just to get the basic overview. The three "must-have-in-place-tools" have
+Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope everything is going well you. In this post, I will write a bit about the different types of tools I am considering to be vital as a Data Scientist. This is a quick read, just to get the basic overview. The three "must-have-in-place-tools" have
 * Modelling tool for doing the cool stuff (R & Python)
 * Use Git to avoid a mess
 * Manage databases in order to.... handle your data!
