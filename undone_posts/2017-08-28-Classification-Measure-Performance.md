@@ -21,6 +21,14 @@ classification. We will look at the themes of
 
 confusionMatrix(data = test_set$pred, reference = test_set$obs)
 
+sensitivity, recall, hit rate, or true positive rate (TPR)
+{\displaystyle \mathrm {TPR} ={\frac {\mathrm {TP} }{P}}={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FN} }}} {\displaystyle \mathrm {TPR} ={\frac {\mathrm {TP} }{P}}={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FN} }}}
+specificity or true negative rate (TNR)
+{\displaystyle \mathrm {TNR} ={\frac {\mathrm {TN} }{N}}={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FP} }}} {\displaystyle \mathrm {TNR} ={\frac {\mathrm {TN} }{N}}={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FP} }}}
+precision or positive predictive value (PPV)
+{\displaystyle \mathrm {PPV} ={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FP} }}} {\displaystyle \mathrm {PPV} ={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FP} }}}
+negative predictive value (NPV)
+{\displaystyle \mathrm {NPV} ={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FN} }}} {\displaystyle \mathrm {NPV} ={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FN} }}}
 
 
 ## Receiver operating characteristic (ROC), Area Under Curve, and other plots.
@@ -56,6 +64,19 @@ the instance is classified as "positive" if {\displaystyle X>T} X>T, and "negati
  the false positive rate is given by
  {\displaystyle {\mbox{FPR}}(T)=\int _{T}^{\infty }f_{0}(x)\,dx} {\mbox{FPR}}(T)=\int _{T}^{\infty }f_{0}(x)\,dx. 
  The ROC curve plots parametrically TPR(T) versus FPR(T) with T as the varying parameter.
+ 
+ 
+ ### AUC
+ When using normalized units, the area under the curve (often referred to as simply the AUC) is equal to the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative one (assuming 'positive' ranks higher than 'negative').[10] This can be seen as follows: the area under the curve is given by (the integral boundaries are reversed as large 
+ T has a lower value on the x-axis)
+{\displaystyle A=\int _{\infty }^{-\infty }{\mbox{TPR}}(T)\left(-{\mbox{FPR}}'(T)\right)\,dT=\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }I(T'>T)f_{1}(T')f_{0}(T)\,dT'\,dT=P(X_{1}>X_{0})} {\displaystyle A=\int _{\infty }^{-\infty }{\mbox{TPR}}(T)\left(-{\mbox{FPR}}'(T)\right)\,dT=\int _{-\infty }^{\infty }\int _{-\infty }^{\infty }I(T'>T)f_{1}(T')f_{0}(T)\,dT'\,dT=P(X_{1}>X_{0})}
+where {\displaystyle X_{1}} X_{1} is the score for a positive instance and {\displaystyle X_{0}} X_{0} is the score for a negative instance.
+
+#### Drawback AUC
+The machine learning community most often uses the ROC AUC statistic for model comparison.[16] However, this practice has recently been questioned based upon new machine learning research that shows that the AUC is quite noisy as a classification measure[17] and has some other significant problems in model comparison.[18][19] A reliable and valid AUC estimate can be interpreted as the probability that the classifier will assign a higher score to a randomly chosen positive example than to a randomly chosen negative example. However, the critical research[17][18] suggests frequent failures in obtaining reliable and valid AUC estimates. Thus, the practical value of the AUC measure has been called into question,[19] raising the possibility that the AUC may actually introduce more uncertainty into machine learning classification accuracy comparisons than resolution. Nonetheless, the coherence of AUC as a measure of aggregated classification performance has been vindicated, in terms of a uniform rate distribution,[20] and AUC has been linked to a number of other performance metrics such as the Brier score.[21]
+
+One recent explanation of the problem with ROC AUC is that reducing the ROC Curve to a single number ignores the fact that it is about the tradeoffs between the different systems or performance points plotted and not the performance of an individual system, as well as ignoring the possibility of concavity repair, so that related alternative measures such as Informedness[6] or DeltaP are recommended.[22] These measures are essentially equivalent to the Gini for a single prediction point with DeltaP' = Informedness = 2AUC-1, whilst DeltaP = Markedness represents the dual (viz. predicting the prediction from the real class) and their geometric mean is the Matthews correlation coefficient.[6]
+
 "
 * https://www.r-bloggers.com/roc-curves-in-two-lines-of-r-code/
 * http://blog.revolutionanalytics.com/2016/11/calculating-auc.html
