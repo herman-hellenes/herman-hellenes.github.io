@@ -23,7 +23,7 @@ What is desicion trees, bagging, boosting, random forrest? A very good book to u
 
 * Lean analytics
 
-
+* Full stack data science/ mining : http://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf
 
 * Some more intro to the concept of data science
 https://www.coursera.org/learn/data-science-course
