@@ -7,7 +7,8 @@ date: 2017-08-28
 Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope everything is going well you. In this post, I will write a bit about the different types of tools I am considering to be vital as a Data Scientist. This is a quick read, just to get the basic overview. The three "must-have-in-place-tools" have
 * Modelling tool for doing the cool stuff (R & Python)
 * Use Git to avoid a mess
-* Manage databases in order to.... handle your data!
+* Manage databases in order to…. handle your data!
+* Big data frameworks
 
 
 ### Your modelling tool
@@ -44,13 +45,22 @@ There are many out there who already have given excellent tutorials on Git, much
 You can host your repository at Github, like I do with this website. There are many others, like [Gitlab](https://about.gitlab.com/) or [Bitbucket](https://bitbucket.org/). If you get a bit tired of using Git Bash, the Unix Shell, there are some GUI clients for you. A selection of these can be found [here](https://git-scm.com/downloads/guis). Lastly, I highly recommend you to use Diffmerge, an application to visually compare and merge files. You can download it [here](https://sourcegear.com/diffmerge/) and a tutorial to use it with the Sourcetree GUI can be found [here](https://www.youtube.com/watch?v=sIwh4UvApMU).
 
 
-### Managing databases
+### Managing data and scalability
 
+#### Databases
 Data Scientists work with huge sets of data. If trying to store in normal files (flat files), you soon will end up with a mess. Git is not your way to solve this issue. Here you use databases. We extract data from the databases, often stored at a server (or could be your own laptop, however not very efficient and "impossible" to collaborate). We also build databases and store our data there. There are many options to where the database should be; in a cloud service, a local server, your computer etc. 
 
 Databases have their own languages, Query languages. They all have their pro's and con's, so you choose the one matching your needs. An important thing to get right, is the difference between relational and non-relational databases. In the former, you typically have SQL, the latter you have noSQL such as MongoDB. Alan Perkins gives in this [video](https://www.youtube.com/watch?v=XPqrY7YEs0A) an explanation I like a lot. 
 
 
+
+### Big data frameworks
+
+When your data sets grows, at some point it is useful to leverage big data frameworks. I put this as an own section, mostly because it is hard to fit it together with the topics above. The reason is that the big data frameworks involve both modelling tools and data storage. The line here is not at first that intuitive to grasp. I will mention the two most popular frameworks, which again are not mutually exclusive. Those are Spark and Hadoop. 
+
+* Hadoop: consists of MapReduce and HDFS. The former is a programming framework, and the latter is for storage. "Hadoop is essentially a distributed data infrastructure: It distributes massive data collections across multiple nodes within a cluster of commodity servers, which means you don’t need to buy and maintain expensive custom hardware. It also indexes and keeps track of that data, enabling big-data processing and analytics far more effectively than was possible previously. "
+
+* Spark: "Spark is framework for performing general data analytics on distributed computing cluster like hadoop. It provides in memory computations for increase speed and data process over Mapreduce. It runs on top of existing hadoop cluster and access hadoop data store (HDFS), can also process structured data in Hive and Streaming data from HDFS, Flume, Kafka, Twitter. Thus Spark is a data-processing tool that operates on those distributed data collections; it doesn't do distributed storage. You can also use Spark without Hadoop. Spark does not come with its own file management system, though, so it needs to be integrated with one — if not HDFS, then another cloud-based data platform. Spark was designed for Hadoop, however, so many agree they’re better together. Spark runs applications in Hadoop clusters up to 100x faster in memory and 10x faster on disk"
 
 
 
