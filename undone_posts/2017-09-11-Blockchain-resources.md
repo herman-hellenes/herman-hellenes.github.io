@@ -69,8 +69,39 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
 ![center](/figs/2017-09-11-Blockchain-resources/ICOs-vs-VCs.png)
 
 
+### Use-cases
+* Get a "prediction" platform for trading forwards, futures, whatever derivatives and bonds. Banks can join the platform easily, can do this as an addition to the normal way of doing it.  
+  * https://gnosis.pm/ - Use as layer? Hm... Yeah I would think! If this is open source, or could make something "on top of it". OR, just go straight on Etherium 
+  * [The National Bank of Belarus to Use Blockchain for Security Bonds Ledger](http://forklog.net/the-national-bank-of-belarus-to-use-blockchain-for-security-bonds-ledger/)
+  * [/blockchain-bonds-prepare-for-launch/](http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle): https://www.blockex.com/. Possible COMPETITOR!!! http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle
+  * http://www.afr.com/technology/cba-puts-government-bonds-on-a-blockchain-20170123-gtx1ff
+  * https://www.thetradenews.com/Asset-Classes/Fixed-income/SGX-to-use-blockchain-for-bond-trading/
+  * https://www.coindesk.com/start-hedging-ledgerx-begin-trading-cryptocurrency-derivatives/
+  * https://www.coindesk.com/11-trillion-bet-dtcc-clear-derivatives-blockchain-tech/
+  * https://www.finextra.com/blogposting/13656/blockchain-and-derivatives-reimagining-the-industry
+  * https://news.law.fordham.edu/jcfl/2017/06/23/off-the-chain-a-guide-to-blockchain-derivatives-markets-and-the-implications-on-systemic-risk/
+  * https://www.cnbc.com/2016/04/19/barclays-used-blockchain-tech-to-trade-derivatives.html
+  * https://www.euromoney.com/article/b12khnth6bgsmv/dtcc-puts-blockchain-at-heart-of-$11-trillion-credit-derivatives-market
+  * https://medium.com/@vishakh/a-deeper-look-into-a-financial-derivative-on-the-ethereum-blockchain-47497bd64744
+  * https://github.com/vishakh/blockinstruments
+  * https://ledgerx.com/category/education/
+  * https://augur.net/
+  * https://www.cyberscoop.com/dtcc-blockchain-ibm-bank-setttlement-hyperledger/
+  * https://www.coindesk.com/world-bank-to-support-blockchain-bonds-trial-in-kenya/
+  * http://smartbonds.co/
+  * http://www.reuters.com/article/banking-blockchain-bonds/forty-big-banks-test-blockchain-based-bond-trading-system-idUSL8N16A30H
+  * https://www.r3.com/ WOW. https://www.corda.net/. https://github.com/corda/corda. MÅ LESE DENNE: https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6
+  * 
+
+
+
+* Tinglysning - mortgage - state - location - registered - govermental fees - etc etc. EVERYTHING that has to do with real estate and land property. Linked together, so know who owns it, who has to pay etc etc.
+* Car register and rental - who owns which car, bought it from who, insurance, etc etc. Very good case for insurance - can "see" some history of the car. 
+
+
+
 
 ### How to actually code this stuff
 
 * [From Etherium](https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/). This text is intended at those who have a basic understanding of web technology and how to build a simple javascript and html app, and want to convert these skills into building apps for the Ethereum ecosystem.
-*[Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf). Very nice tutorial from crazy Grid+ guy. Also added his [Git repo](https://github.com/alex-miller-0/eth-dev-101) to test this stuff.
+* [Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf). Very nice tutorial from crazy Grid+ guy. Also added his [Git repo](https://github.com/alex-miller-0/eth-dev-101) to test this stuff.
