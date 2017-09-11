@@ -97,6 +97,7 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
 * Og: typ bare selge stocks (og alle mulig derivater og bonds) til VANLIGE stock exchange selskaper. OG egentlig alle selskaper som vil dit. SÅ kan gjøre IPO typ gratis. Uregulert kan kjøpe og selge alle selskaper. Trenger ingen middle man, bare lager noen gode kontrakter på exchangen... HEHE RÅTT.
 * Tinglysning - mortgage - state - location - registered - govermental fees - etc etc. EVERYTHING that has to do with real estate and land property. Linked together, so know who owns it, who has to pay etc etc.
 * Car register and rental - who owns which car, bought it from who, insurance, etc etc. Very good case for insurance - can "see" some history of the car. 
+* Accounting -> kan disrupte hele greia....
 
 
 
