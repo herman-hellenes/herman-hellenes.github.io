@@ -91,7 +91,7 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
   * http://smartbonds.co/
   * http://www.reuters.com/article/banking-blockchain-bonds/forty-big-banks-test-blockchain-based-bond-trading-system-idUSL8N16A30H
   * https://www.r3.com/ WOW. https://www.corda.net/. https://github.com/corda/corda. MÅ LESE DENNE: https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6
-  * 
+  * https://www.hyperledger.org/
 
 
 * Og: typ bare selge stocks (og alle mulig derivater og bonds) til VANLIGE stock exchange selskaper. OG egentlig alle selskaper som vil dit. SÅ kan gjøre IPO typ gratis. Uregulert kan kjøpe og selge alle selskaper. Trenger ingen middle man, bare lager noen gode kontrakter på exchangen... HEHE RÅTT.
