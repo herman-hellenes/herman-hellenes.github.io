@@ -71,3 +71,6 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
 
 
 ### How to actually code this stuff
+
+* [From Etherium](https://blog.ethereum.org/2016/07/12/build-server-less-applications-mist/). This text is intended at those who have a basic understanding of web technology and how to build a simple javascript and html app, and want to convert these skills into building apps for the Ethereum ecosystem.
+*[Getting Started as an Ethereum Web Developer](https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf). Very nice tutorial from crazy Grid+ guy. Also added his [Git repo](https://github.com/alex-miller-0/eth-dev-101) to test this stuff.
