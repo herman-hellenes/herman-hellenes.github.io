@@ -73,7 +73,7 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
 * Get a "prediction" platform for trading forwards, futures, whatever derivatives and bonds. Banks can join the platform easily, can do this as an addition to the normal way of doing it.  
   * https://gnosis.pm/ - Use as layer? Hm... Yeah I would think! If this is open source, or could make something "on top of it". OR, just go straight on Etherium 
   * [The National Bank of Belarus to Use Blockchain for Security Bonds Ledger](http://forklog.net/the-national-bank-of-belarus-to-use-blockchain-for-security-bonds-ledger/)
-  * [/blockchain-bonds-prepare-for-launch/](http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle): https://www.blockex.com/. Possible COMPETITOR!!! http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle
+  * [/blockchain-bonds-prepare-for-launch/](http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle): https://www.blockex.com/. Possible COMPETITOR!!! http://www.ifre.com/blockchain-bonds-prepare-for-launch/21286417.fullarticle (LES HELE DENNE ARTIKLEN)
   * http://www.afr.com/technology/cba-puts-government-bonds-on-a-blockchain-20170123-gtx1ff
   * https://www.thetradenews.com/Asset-Classes/Fixed-income/SGX-to-use-blockchain-for-bond-trading/
   * https://www.coindesk.com/start-hedging-ledgerx-begin-trading-cryptocurrency-derivatives/
