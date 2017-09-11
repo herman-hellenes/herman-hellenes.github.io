@@ -12,7 +12,7 @@ I will here just temporarily store my resources on Blockchain. Perhaps I will wr
 
 
 
-![center](/figs/2017-09-11-Blockchain-resources/ICOs-vs-VCs.png)
+![small](/figs/2017-09-11-Blockchain-resources/ICOs-vs-VCs.png)
 
 
 
