@@ -16,13 +16,12 @@ I will here just temporarily store my resources on Blockchain. Perhaps I will wr
 insurance: moving
 blockchain from
 concept to reality](http://www.ey.com/Publication/vwLUAssets/ey-better-working-insurance-moving-blockchain-from-concept-to-reality/$FILE/ey-better-working-insurance-moving-blockchain-from-concept-to-reality.pdf). 20-week proof-of-concept project with EY, Guardtime and Maersk. A working blockchain platform that connects every major stakeholder in the insurance value chain. 
-** Challenges
-*** It can
+  * Challenge: It can
 complicate risks in a number of areas. This is because
 multiple parties in multiple jurisdictions – from ship
 and cargo owners to surveyors and port authorities –
 must align around a single insurance contract.
-*** The great strength of blockchain – its ability to create
+  * The great strength of blockchain – its ability to create
 a single version of the truth – could also become a
 source of systemic risk, if truth becomes falsehood.
 There must be clear controls around what data
