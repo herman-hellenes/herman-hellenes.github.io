@@ -90,7 +90,11 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
   * https://www.coindesk.com/world-bank-to-support-blockchain-bonds-trial-in-kenya/
   * http://smartbonds.co/
   * http://www.reuters.com/article/banking-blockchain-bonds/forty-big-banks-test-blockchain-based-bond-trading-system-idUSL8N16A30H
-  * https://www.r3.com/ WOW. https://www.corda.net/. https://github.com/corda/corda. MÅ LESE DENNE: https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6
+  * https://www.r3.com/ WOW. https://www.corda.net/. https://github.com/corda/corda. 
+  * https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6 :  
+    * Difference in contracts: It becomes clear that Corda was explicitly designed to account for the highly regulated environment of the financial services industry. Both Fabric and Ethereum lack this feature, no Ricardian Contract there.
+    * Difference in currency: Fabric and Corda do not require a build-in cryptocurrency as consensus is not reached via mining. With Fabric, however, it is possible to develop a native currency or a digital token with chaincode.[xvi] With Corda, a creation of digital currencies or tokens is not intended
+  
   * https://www.hyperledger.org/
 
 
