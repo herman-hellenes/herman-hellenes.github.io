@@ -94,6 +94,9 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
   * https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6 :  
     * Difference in contracts: It becomes clear that Corda was explicitly designed to account for the highly regulated environment of the financial services industry. Both Fabric and Ethereum lack this feature, no Ricardian Contract there.
     * Difference in currency: Fabric and Corda do not require a build-in cryptocurrency as consensus is not reached via mining. With Fabric, however, it is possible to develop a native currency or a digital token with chaincode.[xvi] With Corda, a creation of digital currencies or tokens is not intended
+    * Ethereum’s permissionless mode of operation and its total transparency comes at the cost of performance scalability and privacy. Ethereum’s powerful smart contracts engine makes it a generic platform for literally any kind of application. 
+    * Corda is located at the other end. It has been consciously designed as DLT for the financial services industry. Most notably, it takes the highly regulated environment into account by augmenting smart contracts with legal prose.
+
   
   * https://www.hyperledger.org/
 
