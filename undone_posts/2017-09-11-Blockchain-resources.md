@@ -90,14 +90,6 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
   * https://www.coindesk.com/world-bank-to-support-blockchain-bonds-trial-in-kenya/
   * http://smartbonds.co/
   * http://www.reuters.com/article/banking-blockchain-bonds/forty-big-banks-test-blockchain-based-bond-trading-system-idUSL8N16A30H
-  * https://www.r3.com/ WOW. https://www.corda.net/. https://github.com/corda/corda. 
-  * https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6 :  
-    * Difference in contracts: It becomes clear that Corda was explicitly designed to account for the highly regulated environment of the financial services industry. Both Fabric and Ethereum lack this feature, no Ricardian Contract there.
-    * Difference in currency: Fabric and Corda do not require a build-in cryptocurrency as consensus is not reached via mining. With Fabric, however, it is possible to develop a native currency or a digital token with chaincode.[xvi] With Corda, a creation of digital currencies or tokens is not intended
-    * Ethereum’s permissionless mode of operation and its total transparency comes at the cost of performance scalability and privacy. Ethereum’s powerful smart contracts engine makes it a generic platform for literally any kind of application. 
-    * Corda is located at the other end. It has been consciously designed as DLT for the financial services industry. Most notably, it takes the highly regulated environment into account by augmenting smart contracts with legal prose.
-
-  
   * https://www.hyperledger.org/
 
 
@@ -107,6 +99,18 @@ evident and verifiable by anyone, helping to ensure that the historical provenan
 * Accounting -> kan disrupte hele greia....
 
 
+
+### Technologies
+So we have different platforms we can use. Most well known are Etherium, Hyperledger Fabric and R3 Corda. They all have their pros and cons, as well as different scope and use-cases.
+
+This article is brilliant for comparing the three, [here](https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6). Takeaway:  
+    * Difference in contracts: It becomes clear that Corda was explicitly designed to account for the highly regulated environment of the financial services industry. Both Fabric and Ethereum lack this feature, no Ricardian Contract there.
+    * Difference in currency: Fabric and Corda do not require a build-in cryptocurrency as consensus is not reached via mining. With Fabric, however, it is possible to develop a native currency or a digital token with chaincode.[xvi] With Corda, a creation of digital currencies or tokens is not intended
+    * Ethereum’s permissionless mode of operation and its total transparency comes at the cost of performance scalability and privacy. Ethereum’s powerful smart contracts engine makes it a generic platform for literally any kind of application. 
+    * Corda is located at the other end. It has been consciously designed as DLT for the financial services industry. Most notably, it takes the highly regulated environment into account by augmenting smart contracts with legal prose.
+ 
+An additional article on Corda, found [here](https://www.gtreview.com/magazine/volume-15issue-3/r3s-corda-uncovered-not-blockchain/). Bit more critic than the one above
+* I’m perplexed about what it is. My take is, with some discussion with other people in the industry, that R3 is trying to market Corda as a ledger. I don’t think it’s a ledger. It is a business-to-business messaging protocol that is inspired by bitcoin,” Zaki Manian, co-founder at blockchain-based supply chain ﬁnance company Skuchain, tells GTR. “You have systems for exchanging purchase orders and other information between businesses – they already exist. For example, Swift. What a lot of the experimentation in the blockchain industry has been about is how to run a blockchain system to the side, or on top, of these systems so that they can have stronger properties of data consistency and authentication. That’s been the goal.”
 
 
 ### How to actually code this stuff
