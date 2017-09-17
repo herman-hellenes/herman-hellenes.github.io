@@ -60,7 +60,7 @@ When your data sets grows, at some point it is useful to leverage big data frame
 
 * **Hadoop**. This framework consists of several modules, among them we have MapReduce and Hadoop Distributed File System (HDFS). The former is a programming framework, and the latter is for storage. Hadoop is designed to scale up from single servers to thousands of machines, each offering local computation and storage. To scale in such a way, desentralized storage AND using local computation, is really a big deal. 
 
-* **Spark**. This is an open-source cluster-computing framework. As well as MapReduce, does Spark aim to perform data analytics on distributed computing cluster. Spark provides in-memory computations for increase speed and data process over Mapreduce. It is common to use Spark on top of a Hadoop cluster, however this is not a must. Spark runs applications in Hadoop clusters up to 100x faster in-memory and 10x faster on disk, compared to MapReduce.
+* **Spark**. This is an open-source cluster-computing framework. As well as MapReduce, does Spark aim to perform data analytics on distributed computing cluster. Spark provides in-memory computations for increase speed and data process over Mapreduce. It is common to use Spark on top of a Hadoop cluster, however this is not a must. Spark runs applications in Hadoop clusters up to 100x faster in-memory and 10x faster on disk, compared to MapReduce. For more of the differences between Spark and MapReduce, check out this [link](https://www.youtube.com/watch?time_continue=11&v=KzFe4T0PwQ8).
 
 
 
