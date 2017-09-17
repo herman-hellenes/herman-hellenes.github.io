@@ -35,4 +35,5 @@ https://www.udemy.com/scala-and-spark-for-big-data-and-machine-learning/?utm_sou
 
 * Applications
 Hedge funds very nice : https://www.ft.com/content/d86ad460-8802-11e7-bf50-e1c239b45787
+FS in general: http://www.kdnuggets.com/2017/09/machine-learning-algorithms-lending.html#%2EWbl2aYGefhw%2Elinkedin
 
