@@ -71,5 +71,50 @@ Croll & Yoskoviz are mentioning several rules of thumb for choosing good metrics
 * **A good metric changes the way you behave.** As mentioned above.
 
 
+Now we have some hints of how to choose good metrics. However, how many should we highlight as important? We should at least have One Metric That Matters. This metric should fulfill the following (p58)
+
+* It answers the most important question you have. 
+* It forces you to draw a line in the sand and have clear goals.
+* It focuses the entire company.
+* It inspires a culture of experimentation.
+
+This does not imply that you only have one metric, it is useful to keep an eye on dozens of metrics, but they are then subordered. The idea of having this “übermetric” is quite powerful, especially due to aligning the team, aiming for a common and tangible goal. This being said, this metric can and will change in time, when the focus needs to be shifted in the project or business as a whole. It should reflect your most important goal today. For most businesses, it is not trivial to define such metric. Just to find this most important goal is a very valuable exercise in it self. **If you aim at nothing, you will hit it every time.**
+
+
+<p align="center">
+  <img width="400" height="400" src="/figs/lean-analytics/onemetric.jpg">
+</p>
+
+
+The book has most of it’s content dedicated to case studies. There are six broad business models that’s investigated, 
+* E-commerce
+* Saas
+* Free Mobile App
+* Media Site
+* User-Generated Content
+* Two-Sided Marketplace
+
+Even though none of these are directly of your interest, there should be some overlap with the particular business model you are concerned of. The case studies are great «lookup» resources when approaching a new business model. 
+
+Lean Analytics is much more about **what** and **why** you should measure, not that much about how. That’s completely ok, since this book is not trying to target Advanced Analytics such as predictive modelling in any great extent, but rather focus on simple “BI” measurements. In both cases, it is just as important to discuss the what and why before diving into technicalities and modelling, in order to produce value.
+ 
+Croll & Yoskoviz are giving a reflected story of why some metrics are appropriate, whereas many are not. The idea that metrics should always drive action is specially interesting, this is the only way a company truly can be data-driven, and not just have a bunch of data. For the consultants out there jumping from one project to the other, reading carefully through the first part of the book is sufficient (or stick with this summary). The different business models are best suited as lookups in comparison to what you are working on at the moment. 
+
+> *«Make data great again!»* - Unknown
+
+
+
+Cheers!
+
+
+
+
+
+
+
+
+
+
+
 
 
