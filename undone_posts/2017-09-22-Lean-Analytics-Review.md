@@ -18,7 +18,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 <p align="center">
-  <img width="300" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="300" height="300" src="lean_circle.jpg">
 </p>
 
 
