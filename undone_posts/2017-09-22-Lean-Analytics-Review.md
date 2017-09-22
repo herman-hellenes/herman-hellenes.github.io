@@ -6,7 +6,11 @@ comments: true
 ---
 
 
-![center](/figs/lean-analytics/book-cover-full_2.png)
+
+<p align="center">
+  <img width="300" height="420" src="/figs/lean-analytics/book-cover-full_2.png">
+</p>
+
 
 
 Lean Analytics – two of the most buzzed up words put together as one concept. The book is focusing on why analytics is 
@@ -50,4 +54,6 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 
 ![center](/figs/lean-analytics/dilbert-marketing_large.jpg)
 
-
+<p align="center">
+  <img width="700" height="300" src="/figs/lean-analytics/dilbert-marketing_large.jpg">
+</p>
