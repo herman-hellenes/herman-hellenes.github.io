@@ -2,6 +2,7 @@
 layout: post
 title: "Classification - Measuring Performance"
 date: 2017-08-28
+comments: true
 ---
 
 Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope everything is going well you.
