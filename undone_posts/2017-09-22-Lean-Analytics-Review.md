@@ -23,7 +23,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 <p align="center">
-  <img width="460" height="300" src="/figs/lean-analytics/lean_circle.jpg">
+  <src="/figs/lean-analytics/lean_circle.jpg">
 </p>
 
 ![center](/figs/lean-analytics/lean_circle.jpg){: .center-image }
