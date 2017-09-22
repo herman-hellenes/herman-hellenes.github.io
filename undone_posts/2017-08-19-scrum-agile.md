@@ -2,6 +2,7 @@
 layout: post
 title: "Project Management Part 2 - Agile Development"
 date: 2017-08-19
+comments: true
 ---
 
 
