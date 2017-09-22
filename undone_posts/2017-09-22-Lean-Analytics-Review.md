@@ -18,15 +18,9 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="300" height="300" src="http://www.fillmurray.com/460/300">
 </p>
 
-
-<p align="center">
-  <src="/figs/lean-analytics/lean_circle.jpg">
-</p>
-
-![center](/figs/lean-analytics/lean_circle.jpg){: .center-image }
 
 
 
@@ -57,9 +51,3 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 ![center](/figs/lean-analytics/dilbert-marketing_large.jpg)
 
 
-
-.center-image
-{
-    margin: 0 auto;
-    display: block;
-}
