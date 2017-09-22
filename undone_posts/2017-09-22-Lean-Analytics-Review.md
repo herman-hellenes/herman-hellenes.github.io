@@ -19,9 +19,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-<center>
-![center](/figs/lean-analytics/lean_circle.jpg)
-</center>
+<center>[center](/figs/lean-analytics/lean_circle.jpg)</center>
 
 
 
