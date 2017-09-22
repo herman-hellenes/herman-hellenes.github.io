@@ -15,7 +15,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-![center](/figs/2017-09-22-lean-analytics/Reinforcement_learning_diagram.png)
+![center](/figs/lean-analytics/book-cover-full.png)
 
 
 
@@ -38,7 +38,7 @@ As a consultant, it is essential to measure in order to show results. With no me
  > *"If you can’t measure it, you can’t manage it"* – Peter Druckert
 
 
-
+![center](/figs/lean-analytics/lean_circle.jpg)
 
 
 
