@@ -19,9 +19,9 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-
+<center>
 ![center](/figs/lean-analytics/lean_circle.jpg)
-
+</center>
 
 
 
@@ -48,6 +48,8 @@ It is crucial to define metrics before running into experiments. For example, de
 In addition to use a metric that reflects your goal, it is incentivizing your team and partners to align. Whenever you look at a metric, ask yourself, “What will I do differently based on this information?” If you can’t answer it, you probably shouldn’t care about the metric too much. Examples of a poor and a good metric can be,
 * “Total signups”. This is a number that is only increasing over time. There is not much relevant information to be extracted here, when you think about it.
 * “Percent of users who are active”. This is a far better one. When you change something about the product, this metric should change. That means you can experiment, learn, and iterate with it. 
+
+![center](/figs/lean-analytics/dilbert-marketing.jpg)
 
 
 
