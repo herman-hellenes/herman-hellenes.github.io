@@ -2,6 +2,7 @@
 layout: post
 title: "What is Customer Analytics? - A short intro"
 date: 2017-08-19
+comments: true
 ---
 
 Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! 
