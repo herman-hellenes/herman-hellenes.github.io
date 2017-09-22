@@ -15,7 +15,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-![center](/figs/lean-analytics/book-cover-full.png)
+![center](/figs/lean-analytics/book-cover-full_small.png)
 
 
 
