@@ -17,7 +17,9 @@ which measures that are useful in the different cases. Note that the book is pri
 also relevant for entrepreneurs, SME-management and consultants. I will focus on the relevancy for the latter group.
 
 
-
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
 
 ![center](/figs/lean-analytics/lean_circle.jpg){: .center-image }
 
