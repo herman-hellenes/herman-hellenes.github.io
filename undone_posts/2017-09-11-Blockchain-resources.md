@@ -2,6 +2,7 @@
 layout: post
 title: "Blockchain Resources"
 date: 2017-09-11
+comments: true
 ---
 
 Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope you have a great day. 
