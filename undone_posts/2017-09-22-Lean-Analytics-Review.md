@@ -62,16 +62,13 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 
 Croll & Yoskoviz are mentioning several rules of thumb for choosing good metrics (p9-10),
 
-* ***A good metric is comparable.*** Being able to compare a metric to other time periods. Groups of users, or competitors helps you understand which way things are moving. “Increased conversion from last week” is more meaningful than “2% conversion.” 
-
-* ***A good metric is understandable.*** If people can’t remember it and discuss it, it’s much harder to turn a change in the data into a change in the culture. 
-
-* ***A good metric is a ratio or a rate.*** Financial analysts have several ratios they look at to understand, at a glance, the fundamental health of a company (e.g. PE-ratio). You need some, too. This because
-* ***Ratios are easier to act on.*** Think of driving a car; it is easier to act on the car’s speed than the total distance travelled, in the short term. 
-* ***Ratios are inherently comparative.*** Following the car driving analogy, the car’s average speed today can be compared to the average speed yesterday, last month, etc. By narrowing and expanding the time average you can see if there are long term trends, sudden spikes and so on.
-* ***Ratios are also good for comparing factors that are somehow opposed or for which there’s an inherent tension.*** This can be handy for optimization; e.g. speed / traffic tickets. Then you see the trade-off clearly.
-
-* ***A good metric changes the way you behave.*** As mentioned above.
+* **A good metric is comparable.** Being able to compare a metric to other time periods. Groups of users, or competitors helps you understand which way things are moving. “Increased conversion from last week” is more meaningful than “2% conversion.” 
+* **A good metric is understandable.** If people can’t remember it and discuss it, it’s much harder to turn a change in the data into a change in the culture. 
+* **A good metric is a ratio or a rate.** Financial analysts have several ratios they look at to understand, at a glance, the fundamental health of a company (e.g. PE-ratio). You need some, too. This because
+  * **Ratios are easier to act on.** Think of driving a car; it is easier to act on the car’s speed than the total distance travelled, in the short term. 
+  * **Ratios are inherently comparative.** Following the car driving analogy, the car’s average speed today can be compared to the average speed yesterday, last month, etc. By narrowing and expanding the time average you can see if there are long term trends, sudden spikes and so on.
+  * **Ratios are also good for comparing factors that are somehow opposed or for which there’s an inherent tension.** This can be handy for optimization; e.g. speed / traffic tickets. Then you see the trade-off clearly
+* **A good metric changes the way you behave.** As mentioned above.
 
 
 
