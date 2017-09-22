@@ -19,7 +19,7 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-[center](/figs/lean-analytics/lean_circle.jpg)
+![center](/figs/lean-analytics/lean_circle.jpg)
 
 
 
@@ -47,7 +47,7 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 * “Total signups”. This is a number that is only increasing over time. There is not much relevant information to be extracted here, when you think about it.
 * “Percent of users who are active”. This is a far better one. When you change something about the product, this metric should change. That means you can experiment, learn, and iterate with it. 
 
-![center](/figs/lean-analytics/dilbert-marketing.jpg)
+![center](/figs/lean-analytics/dilbert-marketing_large.jpg)
 
 
 
