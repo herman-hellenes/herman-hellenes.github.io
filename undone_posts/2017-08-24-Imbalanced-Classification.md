@@ -1,13 +1,9 @@
 ---
+layout: post
 title: "How to deal with Imbalanced Classification Problems in Machine Learning"
-author: "Herman Hellenes"
-date: "24 august 2017"
-output: html_document
+date: 2017-08-24
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Setting the stage 
 
