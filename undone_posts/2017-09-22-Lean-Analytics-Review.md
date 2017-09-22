@@ -97,6 +97,7 @@ The book has most of it’s content dedicated to case studies. There are six bro
 Even though none of these are directly of your interest, there should be some overlap with the particular business model you are concerned of. The case studies are great «lookup» resources when approaching a new business model. 
 
 Lean Analytics is much more about **what** and **why** you should measure, not that much about how. That’s completely ok, since this book is not trying to target Advanced Analytics such as predictive modelling in any great extent, but rather focus on simple “BI” measurements. In both cases, it is just as important to discuss the what and why before diving into technicalities and modelling, in order to produce value.
+
  
 Croll & Yoskoviz are giving a reflected story of why some metrics are appropriate, whereas many are not. The idea that metrics should always drive action is specially interesting, this is the only way a company truly can be data-driven, and not just have a bunch of data. For the consultants out there jumping from one project to the other, reading carefully through the first part of the book is sufficient (or stick with this summary). The different business models are best suited as lookups in comparison to what you are working on at the moment. 
 
