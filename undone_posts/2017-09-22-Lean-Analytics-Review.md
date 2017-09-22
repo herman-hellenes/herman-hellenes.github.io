@@ -6,6 +6,9 @@ comments: true
 ---
 
 
+![center](/figs/lean-analytics/book-cover-full_2.png)
+
+
 Lean Analytics – two of the most buzzed up words put together as one concept. The book is focusing on why analytics is 
 important in a business setting, and the “lean” approach of applying it in the field. It is so easy to get lost in the jungle 
 of possible KPI’s; they are often too many or just inappropriate. The strongest part of the book is taking on this issue, 
@@ -15,9 +18,9 @@ also relevant for entrepreneurs, SME-management and consultants. I will focus on
 
 
 
-![center](/figs/lean-analytics/book-cover-full_2.png)
 
 
+![center](/figs/lean-analytics/lean_circle.jpg)
 
 
 
@@ -38,7 +41,14 @@ As a consultant, it is essential to measure in order to show results. With no me
  > *"If you can’t measure it, you can’t manage it"* – Peter Druckert
 
 
-![center](/figs/lean-analytics/lean_circle.jpg)
+
+
+Perhaps the most important discussion in the book is about metrics. What makes a good metric? In the end of the day, analytics is about tracking the metrics that are critical to your project or business. Following this, a good metric changes the way you behave. For many, this seems obvious, but people are continuously avoiding this, confusing reporting metrics with actionable metrics. 
+It is crucial to define metrics before running into experiments. For example, decide that if your MVP doesn’t increase order size by 30 %, try something else. A good metric changes the way you behave precisely because it is aligned to your goals of keeping users, encouraging word of mouth, acquiring customers efficiently, etc. 
+In addition to use a metric that reflects your goal, it is incentivizing your team and partners to align. Whenever you look at a metric, ask yourself, “What will I do differently based on this information?” If you can’t answer it, you probably shouldn’t care about the metric too much. Examples of a poor and a good metric can be,
+* “Total signups”. This is a number that is only increasing over time. There is not much relevant information to be extracted here, when you think about it.
+* “Percent of users who are active”. This is a far better one. When you change something about the product, this metric should change. That means you can experiment, learn, and iterate with it. 
+
 
 
 
