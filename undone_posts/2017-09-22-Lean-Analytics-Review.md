@@ -51,4 +51,8 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 
 
 
-
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
