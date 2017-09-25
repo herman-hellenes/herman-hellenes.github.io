@@ -14,9 +14,9 @@ Hey there you beautiful ladies and gentlemen, señoras y señores, damen und her
 
 ### Your modelling tool
 
-So, how to do some proper modelling? You use some kind of programming language. There are many options, however I will do some clarifications on what you should NOT choose. Proprietary software is usually a very bad choice, compared to open source. Why? 
+So, how to do some proper modelling? You use some kind of programming language. There are many options, however I will do some clarifications on what you should NOT choose. Proprietary software is usually a bad choice, compared to open source. Why? 
 1. There is a "small" group of people in the firm that has developed it. Even though Microsoft, SAS etc. are huge corporations, there are still many more Python developers out there. Open source makes everyone able to contribute, and yes, there are a horde of bug-fixers among them. Trust people instead of corporations. 
-2. With open source you can actually see how your tools are put together. Everyone have access to everything. Thus you can look in all source code to understand what is going on, as well as tuning, fixing and further extend.
+2. With open source you can actually see how your tools are put together. Everyone have access to everything. Thus you can look in all source code to understand what is going on, as well as tuning, fixing and further extend. This makes open source much more secure.
 3. Solving problems is completely another story with open source. The resources are just incrediible huge. There are blogs, forums, tutorials, you names it, for everything. I personally get stuck immidiately with a proprietary software. Googling is the way to go, and you often end up at [Stackoverflow](https://stackoverflow.com/), where in April 2014 Stack Overflow had over 4,000,000 registered users.
 4. For us, most of the open source tools are also free. Proprietary alternatives are usually damn expensive. 
 
