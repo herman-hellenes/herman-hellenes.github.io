@@ -34,7 +34,10 @@ Eric Rice has written the book [Lean Startup](http://theleanstartup.com/), which
 
 ### Team organization with Scrum
 
-So we want to work in an agile way, iterating our product. Scrum is a framework to organize teams of few people, setting up "sprint", which are short periods with a clear deadline. Here, [Jira](https://www.atlassian.com/software/jira) is a quite nice tool.
+So we want to work in an agile way, iterating our product. Scrum is a framework to organize teams of few people, setting up "sprint", which are short periods with a clear deadline. Here, [Jira](https://www.atlassian.com/software/jira) is a quite nice tool. All in all, in addition to working agile, these tools and frameworks are introduced in order to mitigate the school group project, as illustrated below.
+
+![center](/extras/school_project.jpg)
+
 
 
 ### Pitfalls
