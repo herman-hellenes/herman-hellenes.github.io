@@ -1,0 +1,86 @@
+---
+layout: post
+title: "Introduction to Machine Learning - Part 1"
+date: 2017-09-27
+comments: true
+---
+
+STATUS: quite finished. Read through once more.
+
+Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope you have a great day. I am now making a "series" of posts regarding Machine Learning. They will vary from the conceptual level, the low level technicalities, to contain inspiration to real-life applications. This will be the first one out, introducing the whole thing.
+
+
+### Setting the stage - how are the buzzwords connected?
+___
+
+**Machine Learning, Artificial Intelligence, Deep Learning, Big Data!** It is such a great hype for these techniques. As well, it is a conception that these techniques are able to solve all kinds of problems, in a hassle free way. People are going to loose their jobs and we will soon end up as in the Matrix. We leave the latter for a later post, discussing if machines really can be intelligent, as well as defining what intellegence actually is. For now, we will dig into the concepts and techniques available today. Unfortunately, there will be blood, sweat, toil and tears to pull off any real-world project involving our mentioned buzzwords. 
+
+There are some rather blurred lines between the concepts of Machine Learning (ML), Artificial Intelligence (AI), Deep Learning and Big Data. As the illustration below shows us, Deep Learning is a subgroup within ML. ML is again a subgroup within AI. The figure is collected from the [Nvidia blog](https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/). 
+
+![center](/figs/2017-08-23-intro-ML/Deep_Learning_Icons_R5_PNG.png)
+
+
+AI was the term people started out with, the birth of the idea that computers could somewhat be intellegent. Again, here "intellegent" is not neccesarily how we usually think of intellegence. AI is very vague, while ML and Deep Learning are more tangible. Intel’s Nidhi Chappell, Head of Machine Learning, has the following distinction between AI and ML:
+
+> *"AI is basically the intelligence – how we make machines intelligent, while machine learning is the implementation of the compute methods that support it. The way I think of it is: AI is the science and machine learning is the algorithms that make the machines ⋅⋅⋅smarter. So the enabler for AI is machine learning"* - Nidhi Chappell
+
+#### But what about Big Data? 
+Big data however, is more on the side. We don't neccesarily need Big data in order to do some work on AI. But if we want to use a lot of data, Big data, it becomes tricky to use traditional methods to handle everything. Thus there are created different techniques to deal with this. Both for storing and processing, we need to think differently. In this manner, Big data is more about how to set up your architecture, than the core statistical ideas of AI, ML and Deep Learning. 
+
+
+### "Defining" ML
+___
+
+We leave Big data for now in this post and go further with the other topics. I personally think it is difficult to give a precise and crisp definition of the concepts. We startet out broad in this post, now trying to narrow the scope. So, I'll try a more down to earth definition here. For all of the current ML techniques we most often have the following:
+ 
+> ML is a data driven approach, where we use statistics to construct models with our training data, where the models can say something useful about new unseen test data.
+
+Further, we can generally categorize ML into three classes. Let's have a very quick overview, before we look at the classes through an example below.
+
+* **Supervised learning**: In the data we use for training the model, we have *labeled* the desired output value. Meaning, the algorithm get to know the right answer, for so improving itself with this as guidance. 
+
+* **Unsupervised learning**: is the machine learning task of deducing a function that describes a structure from *unlabeled* data. Unlike supervised learning, we here have no evaluation of the accuracy of the structure that is the output of the relevant algorithm. 
+
+* **Reinforcement learning**: Here we let the ML algorithm take actions in an environment. The actions lead to a reward and the algorithm aims to maximize some notion of cumulative reward. Reinforcement learning differs from standard supervised learning in that correct input/output pairs are never presented. Below is a figure describing reinforcement learning (the figure and more good reading are to be found at [https://en.wikipedia.org/wiki/Reinforcement_learning]).
+
+![center](/figs/2017-08-23-intro-ML/Reinforcement_learning_diagram.png)
+
+
+
+
+
+
+
+&nbsp;
+&nbsp;
+### ML on a tangible case: Image Recognition 
+
+![center](/figs/2017-08-23-intro-ML/cow_bird.png)
+
+Let's think of an example from Image Recognition. Our problem is to classify pictures of birds and cows. With ML, we will approach this by going through thousands of pictures of different birds and cows. We feed those into an algorithm that train a model to detect which of the two animals it "see" in a picture. In the end, we hopefully have a model that can take in an *unseen* picture, and correctly classify it as either a cow or a bird. This is a typical process of what we call *supervised learning*, meaning, the algorithm get to know if predictions were correct or not while training. I have visualized the process in the beautiful figure below.
+
+![center](/figs/2017-08-23-intro-ML/image_recognition.jpg)
+
+
+As you might have guessed, when we have supervised learning, we also can do *unsupervised learning*. Here, the algorithm does not get to know if the results per se are right or wrong. Let's exemplify this with the cow and bird case. In this situation, the model could on its own come up with the different classes of pictures. If we are lucky, it will find two classes, which appears to be cows and birds. But the model will not "know" what cow and birds are per se, but it learned that the collection of pictures have usually the properties of either a bird or a cow. However it could turn out to classify pictures into the classes with respect to the picture having a forrest in it, or not. Thus is this approach less specific and more open-minded. 
+
+Lastly, we have *reinforcement learning*. We now have a dynamic case, where our ML algorithm *interacts* with some environment and receive feedback on its actions. So how can we relate this to the cow and bird example? We do a litte twist. Say we want our model to sell the pictures online. Of course we aim to maximize the profits. Thus, there are no not clear links between preferable input/output pairs, because the price and volume we can sell for in the market are probably changing all the time. However, this is not a unsupervised learning problem, due to the fact that we have defined a reward system. Reinforcement learning is common in what is called "agent based modelling", modelling of social interactions is one application.
+
+
+### Wrapup and further readings
+___
+
+With ML, we do not attempt to uncover the underlying mechanisms that explain the world. It is a pure empiric exercise, where we don't require very specific hypotheses. Thus it can feel a bit "black box", since we often do not aim to settle any theoretical and easy understandable relationships. On the other hand, it is on the same time quite easy to grasp ML; what we do is to statistically fit some model, that's it. 
+
+In mathematics, ML is often referred to as *Statistical Learning*. In essence, ML is leveraging statistical methods with the aim to build models that works well for new incoming data, where we often depend on some numerical excecution by a computer to pull it off. A book I highly reccomend on the subject, [An Introduction to Statistical Learning: with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/), is a good introduction book for the art of ML. This book gives you a good understanding of the theoretical aspects, but on the level appropriate for undergraduates and usable by nonexperts. There are a lot of R examples with detailed explanations on how to implement the various methods in real life settings, which is a valuable resource for a practicing data scientist.
+
+As well, there are zillions of different books, lectures, videos, etc. to further go into detail and action. I will try to make some post on some special topics myself. 
+
+Cheers!
+
+
+
+
+[Intro xgboost](https://xgboost.readthedocs.io/en/latest/model.html)
+
+
