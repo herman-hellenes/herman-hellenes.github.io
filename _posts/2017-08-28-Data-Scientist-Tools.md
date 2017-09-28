@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful tools for a Data Scientist"
-date: 2017-08-28
+date: 2017-09-28
 comments: true
 ---
 
