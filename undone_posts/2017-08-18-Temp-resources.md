@@ -1,6 +1,6 @@
 Here I list some topics of upcoming posts:
 
-* Intro to ML in R - Caret
+* Intro to ML in R - Caret - [Intro xgboost](https://xgboost.readthedocs.io/en/latest/model.html)
 * How to measure your ML-model 
 https://topepo.github.io/caret/measuring-performance.html
 Imbalanced: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432
