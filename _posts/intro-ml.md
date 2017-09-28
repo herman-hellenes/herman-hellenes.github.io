@@ -72,15 +72,6 @@ ___
 
 With ML, we do not attempt to uncover the underlying mechanisms that explain the world. It is a pure empiric exercise, where we don't require very specific hypotheses. Thus it can feel a bit "black box", since we often do not aim to settle any theoretical and easy understandable relationships. On the other hand, it is on the same time quite easy to grasp ML; what we do is to statistically fit some model, that's it. 
 
-In mathematics, ML is often referred to as *Statistical Learning*. In essence, ML is leveraging statistical methods with the aim to build models that works well for new incoming data, where we often depend on some numerical excecution by a computer to pull it off. A book I highly reccomend on the subject, [An Introduction to Statistical Learning: with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/), is a good introduction book for the art of ML. This book gives you a good understanding of the theoretical aspects, but on the level appropriate for undergraduates and usable by nonexperts. There are a lot of R examples with detailed explanations on how to implement the various methods in real life settings, which is a valuable resource for a practicing data scientist.
-
-As well, there are zillions of different books, lectures, videos, etc. to further go into detail and action. I will try to make some post on some special topics myself. 
+In mathematics, ML is often referred to as *Statistical Learning*. In essence, ML is about leveraging statistical methods with the aim to build models that works well for new incoming data, where we often depend on some numerical excecution by a computer to pull it off. A book I highly reccomend on the subject, [An Introduction to Statistical Learning: with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/), is a good introduction book to the art of ML. This book gives you a good understanding of the theoretical aspects, but on the level appropriate for nonexperts. There are a lot of R examples with detailed explanations on how to implement the various methods in real life settings, which is a valuable resource for a practicing data scientist.
 
 Cheers!
-
-
-
-
-[Intro xgboost](https://xgboost.readthedocs.io/en/latest/model.html)
-
-
