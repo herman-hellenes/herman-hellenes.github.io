@@ -1,0 +1,101 @@
+---
+layout: post
+title: "Tree Models - A very brief overview"
+date: 2017-13-11
+comments: true
+---
+
+Intro..
+
+We consentrate in this post on tree models, which are commonly used in supervised learning problems dealing with classification. 
+Alternatives to the tree models are for instance logistic regression, Naive Bayes classifiers, Artificial neural networks (?), 
+Support vector machines and Linear discriminant analysis, K-nearest neighbors, to mention a few.
+
+There are several reasons that it make sence to make an own post about tree models. First, tree models have been shown to be 
+one of the most efficient and precise methods for very common problems, and thus are widly used. Secoundly, we have several ways to train
+our tree models, thus it is worthwile to spend a bit time on exploring them.
+
+
+## A short intro to statistical learning (move to own post)
+
+As mentioned, tree models are used in supervised learning, doing classification. If this is new to you, I suggest reading THIS POST (make a post 
+about the definition). Anyway we do a short wrapup here. Recall that we have our learning problem 
+
+Y = f(X) + \epsilon
+
+(edit this, copy paste from ISLR)
+In many situations, a set of inputs X are readily available, but the output
+Y cannot be easily obtained. In this setting, since the error term averages
+to zero, we can predict Y using
+ˆ Y = ˆ f(X), (2.2)
+where ˆ f represents our estimate for f, and ˆ Y represents the resulting prediction
+for Y . In this setting, ˆ f is often treated as a black box, in the sense
+that one is not typically concerned with the exact form of ˆ f, provided that
+it yields accurate predictions for Y .
+
+(edit this, copy paste from https://xgboost.readthedocs.io/en/latest/model.html)
+Objective Function : Training Loss + Regularization
+Based on different understandings of yiyi we can have different problems, such as regression, classification, ordering, etc. We need to find a way to find the best parameters given the training data. In order to do so, we need to define a so-called objective function, to measure the performance of the model given a certain set of parameters.
+
+A very important fact about objective functions is they must always contain two parts: training loss and regularization.
+
+Obj(Θ)=L(θ)+Ω(Θ)
+
+
+
+## Tree Ensembles - The Model
+(edit this, copy paste from https://xgboost.readthedocs.io/en/latest/model.html)
+Now that we have introduced the elements of supervised learning, let us get started with real trees. 
+To begin with, let us first learn about the model of xgboost: tree ensembles. The tree ensemble model is 
+a set of classification and regression trees (CART). 
+Here’s a simple example of a CART that classifies whether someone will like computer games.
+
+
+
+
+### Cross validation: 
+- Man tar et "test set" av treningssettet, og validerer på dette 
+settet etter har lagd en model. Gjør dette flere ganger har vi k-fold, 
+der vi setter opp k bins. Vi velger så den modellen som ga lavest error. 
+SÅ tankegangen er "litt" som bagging,, for fortsatt helt forskjellig konsept. 
+https://www.youtube.com/watch?v=sFO2ff-gTh0. : https://www.youtube.com/watch?v=TIgfjmp-4BA
+
+
+### Bagging (bootstrap aggregating)
+- tar ut et subset n av treninsettet tilfeldig med replacement, og 
+lager en modell. Gjør dette m ganger (m bags). Så tar average modell og bruker. 
+Gjør ingen cross validation som default (men kan sikkert adde på som på boosting). https://www.youtube.com/watch?v=2Mg8QD0F1dQ
+
+Random Forest:
+- Tar bagging, men tar et utvalg av predictors hver gang! https://www.youtube.com/watch?v=6yICuCnlh5Q
+
+
+
+Boosting:
+- ganske likt bagging; men tar ikke bare average. For hver bag du lager, legger 
+du mer vekt på det du predikterte dårlig, i neste bag! Så boosting så gror du treet SEKVELSIELT, 
+altså ikke som med bagging og RF som gjør det parallelt.... Gjør en test på treningssettet, så det er 
+litt nærmere  bagging + cross validation. Men ikke helt samme tankegangen, fordi bla boosting vektlegger 
+på en spesiell måte (som gradient boosting feks). https://www.youtube.com/watch?v=GM3CDQfQ4sw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
