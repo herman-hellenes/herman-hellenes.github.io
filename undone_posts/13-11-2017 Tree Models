@@ -184,21 +184,20 @@ https://www.youtube.com/watch?v=sFO2ff-gTh0. : https://www.youtube.com/watch?v=T
 
 
 ### Bagging (bootstrap aggregating)
-- tar ut et subset n av treninsettet tilfeldig med replacement, og 
-lager en modell. Gjør dette m ganger (m bags). Så tar average modell og bruker. 
-Gjør ingen cross validation som default (men kan sikkert adde på som på boosting). https://www.youtube.com/watch?v=2Mg8QD0F1dQ
+- take a subset n out from training set, randomly with replacement, and make a model. 
+- Then repeat the above m times (m bags) 
+- Then pick the average model and use that  so can be done in parallel!
+https://www.youtube.com/watch?v=2Mg8QD0F1dQ
 
-Random Forest:
-- Tar bagging, men tar et utvalg av predictors hver gang! https://www.youtube.com/watch?v=6yICuCnlh5Q
+### Random Forest:
+- More or less same as bagging, but take a selection of predictors each time!  so can be done in parallel!
+https://www.youtube.com/watch?v=6yICuCnlh5Q
 
-
-
-Boosting:
-- ganske likt bagging; men tar ikke bare average. For hver bag du lager, legger 
-du mer vekt på det du predikterte dårlig, i neste bag! Så boosting så gror du treet SEKVELSIELT, 
-altså ikke som med bagging og RF som gjør det parallelt.... Gjør en test på treningssettet, så det er 
-litt nærmere  bagging + cross validation. Men ikke helt samme tankegangen, fordi bla boosting vektlegger 
-på en spesiell måte (som gradient boosting feks). https://www.youtube.com/watch?v=GM3CDQfQ4sw
+### Boosting:
+- quite similar as bagging, but dont simply take the average, but weighted.
+- For each bag, you put more weight on what you predicted poorly in the next bag! 
+- So in boosting we cant do this in parallel, but we are growing the final tree sequential!
+https://www.youtube.com/watch?v=GM3CDQfQ4sw
 
 
 
