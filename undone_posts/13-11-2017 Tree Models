@@ -41,6 +41,128 @@ A very important fact about objective functions is they must always contain two 
 
 Obj(Θ)=L(θ)+Ω(Θ)
 
+### Regression and Logistic Regression
+We take this as an example. This is so well known and widely used, as well as it is rather simple compared to a lot of other methods.
+(copy paste ISLR)
+We tend to select statistical learning methods on the basis of whether
+the response is quantitative or qualitative; i.e. we might use linear regression
+when quantitative and logistic regression when qualitative.
+qualitative. However,
+whether the predictors are qualitative or quantitative is generally considered
+less important.
+
+How should we model the relationship between p(X) = Pr(Y = 1|X) and
+X? (For convenience we are using the generic 0/1 coding for the response).
+In Section 4.2 we talked of using a linear regression model to represent
+these probabilities:
+p(X) = β0 + β1X. (4.1)
+If we use this approach to predict default=Yes using balance, then we
+obtain the model shown in the left-hand panel of Figure 4.2. Here we see
+the problem with this approach: for balances close to zero we predict a
+negative probability of default; if we were to predict for very large balances,
+we would get values bigger than 1. These predictions are not sensible, since
+of course the true probability of default, regardless of credit card balance,
+must fall between 0 and 1. This problem is not unique to the credit default
+data. Any time a straight line is fit to a binary response that is coded as
+0 or 1, in principle we can always predict p(X) < 0 for some values of X
+and p(X) > 1 for others (unless the range of X is limited).
+To avoid this problem, we must model p(X) using a function that gives
+outputs between 0 and 1 for all values of X. Many functions meet this
+description. In logistic regression, we use the logistic function,
+
+p(X) =
+e^(β_0+β_1 X)/ (1 + e^(β_0+β_1 X) .
+
+To fit the model (4.2), we use a method called maximum likelihood, which
+we discuss in the next section. The right-hand panel of Figure 4.2 illustrates 
+the fit of the logistic regression model to the Default data. Notice that for
+low balances we now predict the probability of default as close to, but never
+below, zero. Likewise, for high balances we predict a default probability
+close to, but never above, one. The logistic function will always produce
+an S-shaped curve of this form, and so regardless of the value of X, we
+will obtain a sensible prediction. We also see that the logistic model is
+better able to capture the range of probabilities than is the linear regression
+model in the left-hand plot. The average fitted probability in both cases is
+0.0333 (averaged over the training data), which is the same as the overall
+proportion of defaulters in the data set.
+
+After a bit of manipulation of (4.2), we find that
+p(X) / (1 − p(X)) = e^(β_0+β_1 X). (4.3)
+The quantity p(X)/[1−p(X)] is called the odds, and can take on any value
+between 0 and ∞. Values of the odds close to 0 and ∞ indicate very low
+and very high probabilities of default, respectively. For example, on average
+1 in 5 people with an odds of 1/4 will default, since p(X) = 0.2 implies an
+odds of 0.2
+1−0.2 = 1/4. Likewise on average nine out of every ten people with
+an odds of 9 will default, since p(X) = 0.9 implies an odds of 0.9
+1−0.9 = 9.
+Odds are traditionally used instead of probabilities in horse-racing, since
+they relate more naturally to the correct betting strategy.
+
+By taking the logarithm of both sides of (4.3), we arrive at
+log(p(X) /(1 − p(X)) = β0 + β1X. (4.4)
+The left-hand side is called the log-odds or logit. We see that the logistic
+regression model (4.2) has a logit that is linear in X.
+Recall from Chapter 3 that in a linear regression model, β_1 gives the
+average change in Y associated with a one-unit increase in X. In contrast,
+in a logistic regression model, increasing X by one unit changes the log odds
+by β_1 (4.4), or equivalently it multiplies the odds by e^β_1 (4.3). However,
+because the relationship between p(X) and X in (4.2) is not a straight line,
+β_1 does not correspond to the change in p(X) associated with a one-unit
+increase in X.The amount that p(X) changes due to a one-unit change in
+X will depend on the current value of X. But regardless of the value of X,
+if β1 is positive then increasing X will be associated with increasing p(X),
+and if β1 is negative then increasing X will be associated with decreasing
+p(X). The fact that there is not a straight-line relationship between p(X)
+and X, and the fact that the rate of change in p(X) per unit change in X
+depends on the current value of X, can also be seen by inspection of the
+right-hand panel of Figure 4.2.
+
+### Estimating the Regression Coefficients
+The coefficients β0 and β1 in (4.2) are unknown, and must be estimated
+based on the available training data. In Chapter 3, we used the least squares
+approach to estimate the unknown linear regression coefficients. Although
+we could use (non-linear) least squares to fit the model (4.4), the more
+general method of maximum likelihood is preferred, since it has better statistical
+properties. The basic intuition behind using maximum likelihood
+to fit a logistic regression model is as follows: we seek estimates for β0 and
+β1 such that the predicted probability ˆp(xi) of default for each individual,
+using (4.2), corresponds as closely as possible to the individual’s observed
+default status. In other words, we try to find ˆ β0 and ˆ β1 such that plugging
+these estimates into the model for p(X), given in (4.2), yields a number
+close to one for all individuals who defaulted, and a number close to zero
+for all individuals who did not. This intuition can be formalized using a
+mathematical equation called a likelihood function
+
+l(β0, β1) = \Prod_(i:y_i=1) p(x_i) \Prod_(i':y_(i')=0) (1 − p(x_i)). (4.5)
+
+The estimates ˆ β0 and ˆβ1 are chosen to maximize this likelihood function.
+
+In the linear regression setting, the least squares approach is in fact a special case
+of maximum likelihood
+
+### Making predictions
+Once the coefficients have been estimated, it is a simple matter to compute
+the probability of default for any given credit card balance. For example,
+using the coefficient estimates given in Table 4.1, we predict that the default
+probability for an individual with a balance of $1, 000 is
+ˆp(X) =
+eˆβ0+ˆβ1X
+1 + eˆβ0+ˆβ1X
+=
+e−10.6513+0.0055×1,000
+1 + e−10.6513+0.0055×1,000 = 0.00576,
+which is below 1%. In contrast, the predicted probability of default for an
+individual
+
+
+
+
+
+
+
+
+
 
 
 ## Tree Ensembles - The Model
@@ -87,6 +209,8 @@ Random (legg annet sted)
 https://nicercode.github.io/blog/2013-04-05-why-nice-code/
 https://google.github.io/styleguide/Rguide.xml
 http://www.cio.com/article/2871684/big-data/how-big-data-analytics-can-help-track-money-laundering.html
+
+
 
 
 
