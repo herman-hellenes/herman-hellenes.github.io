@@ -5,7 +5,7 @@ date: 2017-09-28
 comments: true
 ---
 
-Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren. Hope you are doing fine. In this post, I will write a bit about the different types of tools I am considering to be vital as a Data Scientist. This is a quick read, just to get the basic overview. The three "must-have-in-place-tools" have
+Hi there, I hope you are doing fine. In this post, I will write a bit about the different types of tools I am considering to be vital as a Data Scientist. This is a quick read, just to get the basic overview. The three "must-have-in-place-tools" have
 * Modelling tool for doing the cool stuff (R & Python)
 * Use Git to avoid a mess
 * Manage databases in order to…. handle your data!
