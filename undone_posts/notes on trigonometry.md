@@ -19,17 +19,31 @@ Trigonometry starts back with Pythagoras. His theorem says that the square of th
 
 ![center](/figs/trigonometry/Pythagoras-proof-anim.svg)
 
-### Recalling trigonometric functions 
-Now, we get the above, but how was this sine, cosine stuff again? We are talking about trigonometric functions; functions of an angle. They all relate the angles of a triangle to the lengths of its sides. What many recall, is that you had a task to calculate one side of a triagle, where an angle the length of another side is known. This is a very practical problem, which shows up in all kinds of scenarios. But what we usually did, is that we looked up the formulas for sine, cosine and so on, perhaps did some algebra, and we got to the solution! The trigonometric functions can be defined in several ways, where each definition brings along its own intuition. We will walk through them
+## Recalling trigonometric functions 
+Now, we get the above, but how was this sine, cosine stuff again? We are talking about trigonometric functions; functions of an angle. They all relate the angles of a triangle to the lengths of its sides. What many recall, is that you had a task to calculate one side of a triagle, where an angle the length of another side is known. This is a very practical problem, which shows up in all kinds of scenarios. But what we usually did, is that we looked up the formulas for sine, cosine and so on, perhaps did some algebra, and we got to the solution! The trigonometric functions can be defined in several ways, where each definition brings along its own intuition. We will walk through them straight away.
+
+### Right-angled triangle definitions
+For any right-angeled triangle, the trigonometric functions are some ratio of the lenghts in the triangle. That's it! See the table below for the definitions.
+
+![center](/figs/trigonometry/trigonometric_functions.png)
 
 
-## Right-angled triangle definitions
 
-## Unit-circle definitions
+### Unit-circle definitions
+This is a bit more interesting approach if you'd ask me. 
 
-## Series definitions
+The six trigonometric functions can also be defined in terms of the unit circle, the circle of radius one centered at the origin. While right-angled triangle definitions permit the definition of the trigonometric functions for angles between 0 and {{sfrac|{{pi}}|2}}
+radians, the unit circle definition extends the definitions of the trigonometric functions to all positive and negative arguments.
+The equation for the unit circle is
 
-### Relationship to exponential function and complex numbers
+The equation for the unit circle is
+: <math>x^2 + y^2 = 1.</math>
+
+Let a line through the center {{mvar|O}} of the circle, making an angle of {{mvar|θ}} with the positive half of the {{mvar|x}}-axis. The line intersects the unit circle at a point ''A'' whose {{mvar|x}}- and {{mvar|y}}-coordinates are {{math|cos(''θ'')}} and {{math|sin(''θ'')}} respectively
+
+### Series definitions
+
+#### Relationship to exponential function and complex numbers
 It can be shown from the series definitions[14] that the sine and cosine functions are respectively the imaginary and real parts of the exponential function of a purely imaginary argument
 
 Tell also here relation to unit circle !
