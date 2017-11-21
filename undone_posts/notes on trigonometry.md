@@ -77,6 +77,10 @@ Here i is the imaginary unit. This is a crucial result used in mathematics, phys
 
 
 
+![center](/figs/trigonometry/512px-Euler's_formula.svg.png)
+![center](/figs/trigonometry/euler formula step 1.png)
+![center](/figs/trigonometry/eulers formula step 2.png)
+![center](/figs/trigonometry/eulers formula 3.png)
 
 
 
