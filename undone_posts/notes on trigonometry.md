@@ -64,7 +64,7 @@ In order to get this series on a nice little form, we have to check if this conv
 ![center](/figs/trigonometry/taylor_sine.png)
 
 
-Since cosine is the derivative (with negative sign) of sine, we got this result too. 
+Since cosine is the derivative (with negative sign) of sine, we easily get the result for cosine as well. 
 
 
 
@@ -92,11 +92,18 @@ So we can represent our beloved sine and cosine as
 ![center](/figs/trigonometry/eulers_formula_3.png)
 
 
-### Important properties
+## So again, why the heck do we care? 
+There are so many fundamental use cases for trigonometric functions. As stated, the obious ones are for constructing buildings and other rather practical usages.
 
-differential equation chapter wiki -  each is the additive inverse of its own second derivative. this is why it is usefull in describing waves
+Since both the sine and cosine functions satisfy the differential equation {\displaystyle y''=-y\,.} {\displaystyle y''=-y\,.}, the functions fit well to describe a harmonic oscillator. And harmonic oscillators are all around us; in instruments, waves in the sea, light, elemetary particles. Trigonometric functions thus prove to be useful in the study of general periodic functions, which is used in all of physics to some extent.
 
-Also mention there are a lot of nice Identities. Not in detail here though. Include here wikichap Properties and applications. Specially add this: https://en.wikipedia.org/wiki/Trigonometric_functions#/media/File:Sawtooth_Fourier_Animation.gif. So its good to describe "whatever function", useful in optics, quantum, etc
+As well, even though we want to describe a non-period function, we can leverage trogonometric functions. For instance we use Fourier series in signal processing. We can use a combination of sine and cosine waves to construct basically whatever sound we want, as the figure below illustrates
 
+![center](/figs/trigonometry/Sawtooth_Fourier_Animation.gif)
+
+Futher, the role trigonometic functions play in complex numbers are very useful. In quantum mechanics for example, the complex Hilbert spaces provide the context for a mathematical formulation that is convenient and most standard. In the theory of relativity, some formulas for the metric on spacetime become simpler if one takes the time component of the spacetime continuum to be imaginary. As well can the treatment of resistors, capacitors, and inductors be unified by introducing imaginary, frequency-dependent resistances for the latter two and combining all three in a single complex number called the impedance. And all this is the "tip of the iceberg".
+
+
+Alright, hope that this was a repetition was fun, rediscovering the beauty of trigonometric functions. So long, cheers!
 
 
