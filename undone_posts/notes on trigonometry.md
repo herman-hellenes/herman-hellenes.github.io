@@ -20,5 +20,24 @@ Trigonometry starts back with Pythagoras. His theorem says that the square of th
 ![center](/figs/trigonometry/Pythagoras-proof-anim.svg)
 
 ### Recalling trigonometric functions 
-Now, we get the above, but how was this sine, cosine stuff again? We are talking about trigonometric functions; functions of an angle. They all relate the angles of a triangle to the lengths of its sides. What many recall, is that you had a task to calculate one side of a triagle, where an angle the length of another side is known. This is a very practical problem, which shows up in all kinds of scenarios. But what we usually did, is that we looked up the formulas for sine, cosine and so on, perhaps did some algebra, and we got to the solution!
+Now, we get the above, but how was this sine, cosine stuff again? We are talking about trigonometric functions; functions of an angle. They all relate the angles of a triangle to the lengths of its sides. What many recall, is that you had a task to calculate one side of a triagle, where an angle the length of another side is known. This is a very practical problem, which shows up in all kinds of scenarios. But what we usually did, is that we looked up the formulas for sine, cosine and so on, perhaps did some algebra, and we got to the solution! The trigonometric functions can be defined in several ways, where each definition brings along its own intuition. We will walk through them
+
+
+## Right-angled triangle definitions
+
+## Unit-circle definitions
+
+## Series definitions
+
+### Relationship to exponential function and complex numbers
+It can be shown from the series definitions[14] that the sine and cosine functions are respectively the imaginary and real parts of the exponential function of a purely imaginary argument
+
+Tell also here relation to unit circle !
+### Important properties
+
+differential equation chapter wiki -  each is the additive inverse of its own second derivative. this is why it is usefull in describing waves
+
+Also mention there are a lot of nice Identities. Not in detail here though. Include here wikichap Properties and applications. Specially add this: https://en.wikipedia.org/wiki/Trigonometric_functions#/media/File:Sawtooth_Fourier_Animation.gif. So its good to describe "whatever function", useful in optics, quantum, etc
+
+
 
