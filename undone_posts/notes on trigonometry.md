@@ -48,7 +48,7 @@ for any angle θ and any integer k.
 ### Series definitions
 Trigonometric functions are analytic functions. These can be approximated to a k-times differentiable function around a given point by a k-th order Taylor polynomial. The statement of the most basic version of Taylor's theorem, when having one real variable, is as follows:
 
-![center](/figs/trigonometry/taylors theorem.png)
+![center](/figs/trigonometry/taylors_theorem.png)
 
 The proof of this can be found [here](https://en.wikipedia.org/wiki/Taylor%27s_theorem#Proof_for_Taylor.27s_theorem_in_one_real_variable), which is actually quite a simple exercise leveraging L'Hopital's rule.
 
@@ -78,9 +78,9 @@ Here i is the imaginary unit. This is a crucial result used in mathematics, phys
 
 
 ![center](/figs/trigonometry/512px-Euler's_formula.svg.png)
-![center](/figs/trigonometry/euler formula step 1.png)
-![center](/figs/trigonometry/eulers formula step 2.png)
-![center](/figs/trigonometry/eulers formula 3.png)
+![center](/figs/trigonometry/euler_formula_step1.png)
+![center](/figs/trigonometry/eulers_formula_step2.png)
+![center](/figs/trigonometry/eulers_formula3.png)
 
 
 
