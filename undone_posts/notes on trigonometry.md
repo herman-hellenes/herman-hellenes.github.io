@@ -97,7 +97,7 @@ There are so many fundamental use cases for trigonometric functions. As stated, 
 
 Since both the sine and cosine functions satisfy the differential equation {\displaystyle y''=-y\,.} {\displaystyle y''=-y\,.}, the functions fit well to describe a harmonic oscillator. And harmonic oscillators are all around us; in instruments, waves in the sea, light, elemetary particles. Trigonometric functions thus prove to be useful in the study of general periodic functions, which is used in all of physics to some extent.
 
-As well, even though we want to describe a non-period function, we can leverage trogonometric functions. For instance we use Fourier series in signal processing. We can use a combination of sine and cosine waves to construct basically whatever sound we want, as the figure below illustrates
+As well, if we want to describe a function by other functions, we can leverage trigonometric functions. For instance we use Fourier series in signal processing. We can use a combination of sine and cosine waves to construct basically whatever sound (function) we want, as the figure below illustrates
 
 ![center](/figs/trigonometry/Sawtooth_Fourier_Animation.gif)
 
