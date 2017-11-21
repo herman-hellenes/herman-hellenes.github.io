@@ -79,7 +79,7 @@ Here i is the imaginary unit. This is a crucial result used in mathematics, phys
 
 So, in the same fashion as showed above in the unit circle definition, now a point in the complex plane can be represented by a complex number written in cartesian coordinates. Euler's formula provides a means of conversion between cartesian coordinates and polar coordinates. The polar form simplifies the mathematics when used in multiplication or powers of complex numbers. Any complex number z = x + iy, and its complex conjugate, z = x − iy, can be written as
 
-![center](/figs/trigonometry/eulers_formula_3.png)
+![center](/figs/trigonometry/euler_4.png)
 
 
 The proof of this starts with the power series of the exponential, followed by the results we showed above:
@@ -87,10 +87,11 @@ The proof of this starts with the power series of the exponential, followed by t
 
 ![center](/figs/trigonometry/eulers_formula_step2.png)
 
+So we can represent our beloved sine and cosine as
+
+![center](/figs/trigonometry/eulers_formula_3.png)
 
 
-
-Tell also here relation to unit circle !
 ### Important properties
 
 differential equation chapter wiki -  each is the additive inverse of its own second derivative. this is why it is usefull in describing waves
