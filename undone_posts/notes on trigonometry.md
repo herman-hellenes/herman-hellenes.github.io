@@ -7,7 +7,7 @@ comments: true
 
 Hi there, I hope you have a great day. I have been thinking of this for quite some time; we quickly forget what we have learned. For people learning a lot of new stuff and skills, of course this happens. However, the other day I had to quickly read up on Derivative Pricing and Quantitative Risk Management, which I haven't payd too much attention to in a while. Luckily I had ready great notes from my university courses and slides I've done at work, so the task was not too bad. Therefore, I've decided to try to recap important stuff I know now and then, to keep it rather fresh in mind.
 
-First off, I start all the way back to high school. I realized; if someone asked me "what is Cosine?", I would have to think a bit to get a good and precise answer. So now I try to do a repetiotion of the key concepts of trigonometry.
+First off, I start all the way back to high school. I realized; if someone asked me "what is Cosine?", I would have to think a bit to get a good and precise answer. So now I try to do a repetition of the key concepts of trigonometry, assuming we have all learned and used this extensivly, but need a quick recap of the highlights.  
 
 ### Why does trigonometry matters?
 Might for many people seem like a stupid question, but it is still essensial. Wikipedia says "Trigonometry (from Greek trigōnon, "triangle" and metron, "measure") is a branch of mathematics that studies relationships involving lengths and angles of triangles."
@@ -29,19 +29,45 @@ For any right-angeled triangle, the trigonometric functions are some ratio of th
 
 
 
-### Unit-circle definitions
-This is a bit more interesting approach if you'd ask me. 
+### Unit circle definitions
+This is a bit more interesting approach if you'd ask me. The unit circle give a whole new intuition, that will be important also for grasping complex numbers. You could recall the definition by looking at the figure below.
 
-The six trigonometric functions can also be defined in terms of the unit circle, the circle of radius one centered at the origin. While right-angled triangle definitions permit the definition of the trigonometric functions for angles between 0 and {{sfrac|{{pi}}|2}}
-radians, the unit circle definition extends the definitions of the trigonometric functions to all positive and negative arguments.
-The equation for the unit circle is
+![center](/figs/trigonometry/418px-Sinus_und_Kosinus_am_Einheitskreis_1.svg.png)
 
-The equation for the unit circle is
+The unit circle has radius equal to one, thereof the name, and is centered at the origin. If we look closely at the right-angled triangle definitions, they only make sience for angles between 0 and {{sfrac|{{pi}}|2}} radians. However, the unit circle definition extends the definitions of the trigonometric functions to all positive and negative arguments! 
+
+The equation for the unit circle is simply
 : <math>x^2 + y^2 = 1.</math>
 
-Let a line through the center {{mvar|O}} of the circle, making an angle of {{mvar|θ}} with the positive half of the {{mvar|x}}-axis. The line intersects the unit circle at a point ''A'' whose {{mvar|x}}- and {{mvar|y}}-coordinates are {{math|cos(''θ'')}} and {{math|sin(''θ'')}} respectively
+What is now cool, is that the hypotenus is always equal to one; it is just the radius of the circle! So the definitions of sine and cosine metioned above gives simply that sin(theta) = x and cos(theta)=y, making them the coordinates on the circle surface.
+
+Further, for angles greater than 2π or less than −2π, we simply continues to rotate around the circle; sine and cosine are thus periodic functions with period 2π:
+{\displaystyle {\begin{aligned}\sin \theta &=\sin \left(\theta +2\pi k\right)\,,\\\cos \theta &=\cos \left(\theta +2\pi k\right)\,,\end{aligned}}} {\displaystyle {\begin{aligned}\sin \theta &=\sin \left(\theta +2\pi k\right)\,,\\\cos \theta &=\cos \left(\theta +2\pi k\right)\,,\end{aligned}}}
+for any angle θ and any integer k. 
 
 ### Series definitions
+Trigonometric functions are analytic functions. These can be approximated to a k-times differentiable function around a given point by a k-th order Taylor polynomial. The statement of the most basic version of Taylor's theorem, when having one real variable, is as follows:
+
+![center](/figs/trigonometry/taylors theorem.png)
+
+The proof of this can be found [here](https://en.wikipedia.org/wiki/Taylor%27s_theorem#Proof_for_Taylor.27s_theorem_in_one_real_variable), which is actually quite a simple exercise leveraging L'Hopital's rule.
+
+Ok, back to the trigonometric functions. Let's start with sine. First, we need the following results
+
+d/dx sin(x) = cos(x)
+d/dx cos(x) = -sin(x)
+
+I will not give the proof here, but is easily walked through [here](https://www.khanacademy.org/math/ap-calculus-ab/ab-derivative-rules/ab-diff-sin-cos/a/proving-the-derivatives-of-sinx-and-cosx). It consists basically with some limits tricks, nothing very tricky.
+Now we can apply Taylor's theorem on sin(x), expanding around zero (in this special case its also referred to as a Maclaurin series).
+In order to get this series on a nice little form, we have to check if this converges. To do this, we can use the Lagrange form of the remainder, which is obtained during the standard proofs of Taylor's Theorem. The trick here is that the k'th remainder term is always bounded in absolute value by x^(k+1) / (k+1)!  because the successive derivatives are always just a sins or cos (with some sign). It's easy to see that for any x, as k approaches infinity, that this error term goes to 0. Thus the expansion does converge to sin⁡(x) and we get 
+
+![center](/figs/trigonometry/taylor_sine.png)
+
+
+Since cosine is the derivative (with negative sign) of sine, we got this result too. 
+
+
+
 
 #### Relationship to exponential function and complex numbers
 It can be shown from the series definitions[14] that the sine and cosine functions are respectively the imaginary and real parts of the exponential function of a purely imaginary argument
