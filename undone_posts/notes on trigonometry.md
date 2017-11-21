@@ -70,7 +70,16 @@ Since cosine is the derivative (with negative sign) of sine, we got this result 
 
 
 #### Relationship to exponential function and complex numbers
-It can be shown from the series definitions[14] that the sine and cosine functions are respectively the imaginary and real parts of the exponential function of a purely imaginary argument
+It can be shown from the series definitions that the sine and cosine functions are respectively the imaginary and real parts of the exponential function of a purely imaginary argument. Euler's formula states that for any real number x
+{\displaystyle e^{ix}=\cos x+i\sin x,} {\displaystyle e^{ix}=\cos x+i\sin x,}
+
+Here i is the imaginary unit. This is a crucial result used in mathematics, physics and engineering. Richard Feynman has called this formula for "our jewel" and "the most remarkable formula in mathematics". But how do we get our heads around this? So the formula is saying that the function e^(iφ) is a unit complex number, meaning that it traces out the unit circle in the complex plane as φ ranges through the real numbers. Here φ is the angle that a line connecting the origin with a point on the unit circle makes with the positive real axis, measured counterclockwise and in radians.
+
+
+
+
+
+
 
 Tell also here relation to unit circle !
 ### Important properties
