@@ -1,5 +1,5 @@
 following the notes on trigonometry
-Maybe go straight on with https://en.wikipedia.org/wiki/Maxwell%27s_equations. And then build an intro and outro from https://en.wikipedia.org/wiki/Electromagnetism
+Maybe go straight on with https://en.wikipedia.org/wiki/Maxwell%27s_equations. And then build an intro and outro from https://en.wikipedia.org/wiki/Electromagnetism and https://en.wikipedia.org/wiki/Classical_electromagnetism
 
 Try as well to see if I have anything at http://sharelatex.com/
 
