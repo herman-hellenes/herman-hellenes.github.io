@@ -75,12 +75,17 @@ It can be shown from the series definitions that the sine and cosine functions a
 
 Here i is the imaginary unit. This is a crucial result used in mathematics, physics and engineering. Richard Feynman has called this formula for "our jewel" and "the most remarkable formula in mathematics". But how do we get our heads around this? So the formula is saying that the function e^(iφ) is a unit complex number, meaning that it traces out the unit circle in the complex plane as φ ranges through the real numbers. Here φ is the angle that a line connecting the origin with a point on the unit circle makes with the positive real axis, measured counterclockwise and in radians.
 
-
-
 ![center](/figs/trigonometry/512px-Euler's_formula.svg.png)
+
+So, in the same fashion as showed above in the unit circle definition, now a point in the complex plane can be represented by a complex number written in cartesian coordinates. Euler's formula provides a means of conversion between cartesian coordinates and polar coordinates. The polar form simplifies the mathematics when used in multiplication or powers of complex numbers. Any complex number z = x + iy, and its complex conjugate, z = x − iy, can be written as
+
+![center](/figs/trigonometry/eulers_formula_3.png)
+
+
+The proof of this starts with the power series of the exponential, followed by the results we showed above:
 ![center](/figs/trigonometry/euler_formula_step1.png)
+
 ![center](/figs/trigonometry/eulers_formula_step2.png)
-![center](/figs/trigonometry/eulers_formula3.png)
 
 
 
