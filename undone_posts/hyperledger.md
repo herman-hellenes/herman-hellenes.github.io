@@ -15,6 +15,7 @@ Hyperledger is a "Blockchain for the business technology community".
 * Covernance: Linux - or totally open?
 * Currency - none
 * Verification protocol - ?
+* Critique - ?
 
 
 ![center](/figs/blockchain/tech_comparison_ corda_ethereum_hyperledger.png)
