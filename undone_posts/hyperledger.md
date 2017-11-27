@@ -25,10 +25,15 @@ Hyperledger is a "Blockchain for the business technology community".
 
 Refs: https://medium.com/@philippsandner/comparison-of-ethereum-hyperledger-fabric-and-corda-21c1bb9442f6
 
-Proof of Stake (move to other article)
-- Its like having virtual mining. 
-- Proof of work: You pay the a miner to mine, so if you have 100 ETH you get one miner ish and so on. Put money in, reward out
-- Proof of work: if you have a vir
+Consensus protocols-
+https://www.youtube.com/watch?time_continue=125&v=-oIYqV8q87s : 
+Proof of work: 
+There can always be a longer chain that does not include any given block (exeption: genesis block (and checkpoints))
+Bitcoins notion of safety: my block is "safe" if i will never see a heaviest chain that does not include my block.
+So even though this is locally defined, it kind of does the job globally... Dont get this stuff...
+Proof of Stake : check mauve 
+
+
 
 
 Key articles
@@ -38,3 +43,10 @@ Key articles
 - https://medium.com/@VitalikButerin/zk-snarks-under-the-hood-b33151a013f6
 - https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627
 - https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649
+- https://cdn.hackaday.io/files/10879465447136/Mauve%20Paper%20Vitalik.pdf
+- file:///C:/Users/herman.a.hellenes/Downloads/casper_economics_basic.pdf
+- https://github.com/ethereum/research/blob/master/papers/casper-basics/casper_basics.pdf
+- https://www.youtube.com/watch?time_continue=125&v=-oIYqV8q87s
+- 
+
+
