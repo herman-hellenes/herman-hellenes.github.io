@@ -12,6 +12,8 @@ How to go forward:
 My goal is to
 * Have a solid understanding of blockchain, in order to see if it is useful for the industry. Have the feeling it might be useless. 
 * But at least I can get own business ideas and be an expert
+* More concrete questions; use as headers! 
+* So have to conclude: is this for cyber punks or a tool in business?
 
 Resources I need to include
 * My ethereum book
@@ -26,3 +28,17 @@ Resources I need to include
 * file:///C:/Users/herman.a.hellenes/Downloads/casper_economics_basic.pdf
 * https://github.com/ethereum/research/blob/master/papers/casper-basics/casper_basics.pdf
 * https://www.youtube.com/watch?time_continue=125&v=-oIYqV8q87s
+
+# Introduction to Blockchain
+* Here add from the book,  GLOBAL BLOCKCHAIN BENCHMARKING and Vitalik
+
+## Consensus algorithm
+
+## Smart contracts 
+We can access a global computer! Cool; but why should we care?
+
+## Private / premissioned Blockchains
+
+# What problem does Blockchain / DLT solve for businesses?
+Conclude if Blockchain, DLT, is suited, and why! Corda, Hyperledger
+
