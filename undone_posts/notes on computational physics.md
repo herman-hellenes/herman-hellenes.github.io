@@ -13,4 +13,6 @@ We have some observations of something, n samples.
 * Can plot histogram of all S. Then we will expect something quite Gaussian (since resampeled from same sample). Lets say our mean of the distribution of S is S_bar. Then we can calculate sigma^2_boot = (sum of i=1 to i=B (S^i - S^i_bar)^2) / (B-1), where B is the number of bootstraps. 
 * So what have we done? We have got the shape of parent distribution, without really knowing it!
 
-See also https://www.youtube.com/watch?v=gcPIyeqymOU and https://www.youtube.com/watch?v=tTZybQTE0dw
+See also https://www.youtube.com/watch?v=gcPIyeqymOU and https://www.youtube.com/watch?v=tTZybQTE0dw, and add more from here: https://en.wikipedia.org/wiki/Resampling_(statistics) and here https://en.wikipedia.org/wiki/Monte_Carlo_method. A lot of what i learned in physics was very spesific problems, and I need to refresh main concepts and apply it on everything where it fits.
+
+As weell: http://young.physics.ucsc.edu/jackboot.pdf and http://www.ijmttjournal.org/Volume-6/IJMTT-V6P505.pdf
