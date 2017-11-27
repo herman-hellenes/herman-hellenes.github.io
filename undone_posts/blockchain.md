@@ -42,3 +42,13 @@ We can access a global computer! Cool; but why should we care?
 # What problem does Blockchain / DLT solve for businesses?
 Conclude if Blockchain, DLT, is suited, and why! Corda, Hyperledger
 
+
+# Introducing Ethereum and Solidity - book notes
+Blockchain is a combination of three technologies
+* P2P networking: A group of computers can communicate among themselves without relying on a single central authority and therefore not presenting a single point of failure (like BitTorrent)
+* Assymetric cryptography. This allows computers to send a message encrypted for spesific recipients such that anyone can verify the sender's authencitym but only indended recipients can read the message contents. In Ethereum and Bitcoins, asymmetric cryptography is used to create a set of credentials for your account, to ensure that only you can transfer your tokens. HERMAN: the latter is right, but not sure if the former sentence is true...
+* Cryptographic hashing. A way to generate a small, unique "fingerprint" for any data, allowing quick comparison of large datasets and a secure way to verify that data has not been altered. In Bitcoin and Ethereum, the Merkle tree data structure is used to record the canonical order of transactions, which is then hased into a "fingerprint" that serves as a basis of comparison for computers on the network, and around which they can quickly synchronize.
+
+
+
+
