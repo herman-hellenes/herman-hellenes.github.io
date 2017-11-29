@@ -49,6 +49,27 @@ Blockchain is a combination of three technologies
 * Assymetric cryptography. This allows computers to send a message encrypted for spesific recipients such that anyone can verify the sender's authencitym but only indended recipients can read the message contents. In Ethereum and Bitcoins, asymmetric cryptography is used to create a set of credentials for your account, to ensure that only you can transfer your tokens. HERMAN: the latter is right, but not sure if the former sentence is true...
 * Cryptographic hashing. A way to generate a small, unique "fingerprint" for any data, allowing quick comparison of large datasets and a secure way to verify that data has not been altered. In Bitcoin and Ethereum, the Merkle tree data structure is used to record the canonical order of transactions, which is then hased into a "fingerprint" that serves as a basis of comparison for computers on the network, and around which they can quickly synchronize.
 
+# Blockchain for business
+The security promises of distributed ledgers and private blockchains are only as good as the honesty of the entities validating the transactions. There are no mathematical guarantees behind the irreversibility of transactions in a private blockchain. 
+
+Traditional databases are completely contained within one entity, irrespective of their structure (SQL or no-SQL type databases). This includes read and write access, which is only possible via applications controlled by the entity to which the database belongs [9]. Shared databases, on the other hand, involve read and write access involving multiple entities.
+
+Private blockchains mimic the security process utilized by public blockchains like Bitcoin, but do not involve mathematical guarantees at the validation level or with respect to irreversibility.
+
+At the end of the day, private blockchains provide higher levels of error checking and transaction validity than regular shared databases.
+
+Even though they don’t use proof of work, blocks of transactions are validated using some other forms of consensus mechanism. This can still be chosen to be Byzantine Fault Tolerant (BFT).
+
+The most popular such algorithms include Raft [7] and Juno [8]. These consensus protocols work based on a leader-follower model, wherein for each block a leader is selected who creates the block and adds to the blockchain. There are various ways in which errors and anomalies are then corrected by the system.
+
+(https://medium.com/blockchain-review/private-blockchain-or-database-whats-the-difference-523e7d42edc)
+## When NOT to use Blockchain 
+Blockchain is not needed when there is no business network:  the existence of a business network is the mandatory test for a blockchain use case.  Quite simply, with no business network means blockchain is an overkill, and probably a distributed database would be a more appropriate (and more mature) solution. (https://www.ibm.com/blogs/insights-on-business/government/ten-things-blockchain-not/)
+
+## Critique
+https://freedom-to-tinker.com/2015/09/18/private-blockchain-is-just-a-confusing-name-for-a-shared-database/
+
+
 
 
 
