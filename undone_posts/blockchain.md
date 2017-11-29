@@ -70,6 +70,14 @@ Blockchain is not needed when there is no business network:  the existence of a 
 https://freedom-to-tinker.com/2015/09/18/private-blockchain-is-just-a-confusing-name-for-a-shared-database/
 
 
+Read
+https://blog.ethereum.org/2015/08/07/on-public-and-private-blockchains/
+https://hbr.org/2017/03/how-safe-are-blockchains-it-depends
+https://blog.slock.it/public-vs-private-chain-7b7ca45044f
+https://bitcoinmagazine.com/articles/what-are-the-use-cases-for-private-blockchains-the-experts-weigh-in-1466440884/
+https://raft.github.io/raft.pdf
+https://www.multichain.com/blog/2016/03/blockchains-vs-centralized-databases/
+
 
 
 
