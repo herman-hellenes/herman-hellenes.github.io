@@ -2,7 +2,7 @@
 permalink:           blogposts/:categories/:title
 
 # Setup
-title:               InDataWeTrust
+title:               
 tagline:             'Website and blog of Herman Hellenes'
 description:         'Physics M.Sc. and Data Scientist at EY.'
 url:                 http://herman-hellenes.github.io
