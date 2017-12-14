@@ -1,5 +1,8 @@
 Here I list some topics of upcoming posts:
 
+* OBS: these guys have a lot of nice content, but very tricky to get and read: https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
+So make it more fun and easy. And much shorter. Can instead make it in many parts
+
 * Intro to ML in R - Caret - [Intro xgboost](https://xgboost.readthedocs.io/en/latest/model.html)
 * How to measure your ML-model 
 https://topepo.github.io/caret/measuring-performance.html
@@ -9,6 +12,7 @@ http://blog.revolutionanalytics.com/2016/11/calculating-auc.html how to calculat
 Imbalanced : https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-imbalanced-classification-problems/
 Tutorial xgboost : https://xgboost.readthedocs.io/en/latest/model.html
 https://github.com/dmlc/xgboost/blob/master/doc/parameter.md
+
 
 
 * How to select hyperparams?
