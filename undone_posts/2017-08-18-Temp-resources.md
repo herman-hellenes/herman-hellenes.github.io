@@ -13,7 +13,7 @@ Imbalanced : https://www.analyticsvidhya.com/blog/2016/03/practical-guide-deal-i
 Tutorial xgboost : https://xgboost.readthedocs.io/en/latest/model.html
 https://github.com/dmlc/xgboost/blob/master/doc/parameter.md
 
-
+* this is awesome: https://jobs.zalando.com/tech/blog/what-is-hardcore-data-science--in-practice/?gh_src=4n3gxh1
 
 * How to select hyperparams?
 https://cran.r-project.org/web/packages/rBayesianOptimization/rBayesianOptimization.pdf
