@@ -27,7 +27,7 @@ learn how the users respond into a new iteration. This way of working is now pop
 
 
 Lean Analytics is focusing on the “measure”-step in the Lean Startup framework. With analytics, 
-we try to answer “where you are” and “where you should be going”, trough gathering and analyzing data. 
+we try to answer “where you are” and “where you should be going”, by gathering and analyzing data. 
 As a consultant, it is essential to measure in order to show results. With no measurements, we can’t prove any change to the client.
 
 
