@@ -12,7 +12,11 @@ comments: true
 </p>
 
 
-Hi there, I hope you have a great day. Are you open for some toughts around how effectivly measure KPIs in a business, which KPIs are relevant and why you should at all bother? Then this book review would be interesting for you. 
+Hi there, I hope you have a great day. Are you open for some toughts on how effectivly measure KPIs in a business, which KPIs are relevant and why you should at all bother? These topics are crucial for leaders, business analysts as well as data scientists. Metrics that drive change and incorporate the firm's strategy are vital to put in place by the leaders. A business analyst's job is similar, as well as constantly thriving to provide an accurate picture of how the firm is 
+
+Then this book review would be interesting for you.  
+
+
 
 
 <p align="center">
