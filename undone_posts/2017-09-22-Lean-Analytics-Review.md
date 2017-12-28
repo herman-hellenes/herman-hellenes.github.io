@@ -16,12 +16,8 @@ These topics are crucial for leaders, business analysts as well as data scientis
 </p>
 
 
-After the successful book "Lean Startup" by Eric Rice, the word “Lean” has somewhat been reincarnated from the well known Lean Manifacturing put forward by Toyota and others. Lean Analytics is a spin-off from Rice's first book, written by Alistair Croll and Benjamin Yoskovitz. For those of you who are not familiar with Rice, I can tell that he is an
-evangelist in the startup community, preaching the “lean” approach of developing new products 
-and businesses. This has been influential also outside the startup scene the last years, together with 
-“Agile Development” and other similar concepts. To put it short, the Lean Startup approach 
-aims for iterative development cycles, through a build-measure-learn process. It is key to 
-keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
+After the successful book "Lean Startup" by Eric Rice, the word “Lean” has somewhat been reincarnated from the well known Lean Manifacturing put forward by Toyota and others. Lean Analytics is a spin-off from Rice's first book, written by Alistair Croll and Benjamin Yoskovitz. Rice is an evangelist in the startup community, preaching the “lean” approach of developing new products 
+and businesses. To put it short, the Lean Startup approach aims for iterative development cycles, through a build-measure-learn process. It is key to keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
 learn how the users respond into a new iteration. This way of working is now popular also among consultants and incumbents. 
 
 
