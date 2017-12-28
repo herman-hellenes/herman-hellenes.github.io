@@ -7,33 +7,28 @@ comments: true
 
 
 
+Hi there, I hope you have a great day. Are you open for some toughts on how effectivly measure KPIs in a business, which KPIs are relevant and why you should at all bother? These topics are crucial for leaders, business analysts as well as data scientists. Metrics that drive change and incorporate the firm's strategy are vital to put in place by the leaders. A business analyst help out with this and give supplementing measures to tell a more nuanced view. Data Scientists often try to improve key metrics aligned with the firm's strategy and need to show with hard numbers if their contribution succeeded. 
+
+If any of this roles and topics seems familiar, this book review would hopefully be interesting..  
+
 <p align="center">
   <img width="200" height="280" src="/figs/lean-analytics/book-cover-full_2.png">
 </p>
 
 
-Hi there, I hope you have a great day. Are you open for some toughts on how effectivly measure KPIs in a business, which KPIs are relevant and why you should at all bother? These topics are crucial for leaders, business analysts as well as data scientists. Metrics that drive change and incorporate the firm's strategy are vital to put in place by the leaders. A business analyst's job is similar, as well as constantly thriving to provide an accurate picture of how the firm is 
-
-Then this book review would be interesting for you.  
-
-
+After the successful book "Lean Startup" by Eric Rice, the word “Lean” has somewhat been reincarnated from the well known Lean Manifacturing put forward by Toyota and others. Lean Analytics is a spin-off from Rice's first book, written by Alistair Croll and Benjamin Yoskovitz. For those of you who are not familiar with Rice, I can tell that he is an
+evangelist in the startup community, preaching the “lean” approach of developing new products 
+and businesses. This has been influential also outside the startup scene the last years, together with 
+“Agile Development” and other similar concepts. To put it short, the Lean Startup approach 
+aims for iterative development cycles, through a build-measure-learn process. It is key to 
+keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
+learn how the users respond into a new iteration. This way of working is now popular also among consultants and incumbents. 
 
 
 <p align="center">
   <img width="300" height="300" src="/figs/lean-analytics/lean_circle.jpg">
 </p>
 
-
-
-
-After the successful Lean Startup by Eric Rice, the word “Lean” has been put 
-in front many other book titles. For those of you who are not familiar with Rice, he is an
-evangelist in the startup community, preaching the “lean” approach of developing new products 
-and businesses. This has been influential also outside the startup scene, together with 
-“Agile Development” and other similar concepts. To put it short, the Lean Startup approach 
-aims for iterative development cycles, through a build-measure-learn process. It is key to 
-keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
-learn how the users respond into a new iteration. This way of working is now popular also consultants. 
 
 Lean Analytics is focusing on the “measure”-step in the Lean Startup framework. With analytics, 
 we try to answer “where you are” and “where you should be going”, trough gathering and analyzing data. 
