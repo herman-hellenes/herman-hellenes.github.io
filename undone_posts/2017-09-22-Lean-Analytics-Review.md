@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lean Analytics - Key Takeaways from the Book"
+title: "Lean Analytics - Key Takeaways from the book"
 date: 2017-09-22
 comments: true
 ---
@@ -58,7 +58,7 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 
 
 <p align="center">
-  <img width="500" height="200" src="/figs/lean-analytics/dilbert_campaign.jpg">
+  <img width="600" height="250" src="/figs/lean-analytics/dilbert_campaign.jpg">
 </p>
 
 
