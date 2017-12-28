@@ -49,7 +49,9 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 * “Total signups”. This is a number that is only increasing over time. There is not much relevant information to be extracted here, when you think about it.
 * “Percent of users who are active”. This is a far better one. When you change something about the product, this metric should change. That means you can experiment, learn, and iterate with it. 
 
-!![center](/figs/lean-analytics/dilbert_campaign.jpg)
+<p align="center">
+  <img width="400" height="100" src="/figs/lean-analytics/dilbert_campaign.jpg">
+</p>
 
 
 Croll & Yoskoviz are mentioning several rules of thumb for choosing good metrics (p9-10),
