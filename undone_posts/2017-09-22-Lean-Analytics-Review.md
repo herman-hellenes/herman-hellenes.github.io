@@ -50,7 +50,7 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 * “Percent of users who are active”. This is a far better one. When you change something about the product, this metric should change. That means you can experiment, learn, and iterate with it. 
 
 <p align="center">
-  <img width="600" height="250" src="/figs/lean-analytics/dilbert_campaign.jpg">
+  <img width="500" height="200" src="/figs/lean-analytics/dilbert_campaign.jpg">
 </p>
 
 
