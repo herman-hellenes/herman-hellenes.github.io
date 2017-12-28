@@ -16,8 +16,7 @@ These topics are crucial for leaders, business analysts as well as data scientis
 </p>
 
 
-After the successful book "Lean Startup" by Eric Rice, the word “Lean” has somewhat been reincarnated from the well known Lean Manifacturing put forward by Toyota and others. Lean Analytics is a spin-off from Rice's first book, written by Alistair Croll and Benjamin Yoskovitz. Rice is an evangelist in the startup community, preaching the “lean” approach of developing new products 
-and businesses. To put it short, the Lean Startup approach aims for iterative development cycles, through a build-measure-learn process. It is key to keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
+After the successful book "Lean Startup" by Eric Rice, the concept “Lean” has somewhat been reincarnated from the well known Lean Manifacturing put forward by Toyota and others. Lean Analytics is a spin-off from Rice's first book, written by Alistair Croll and Benjamin Yoskovitz. In brief, the Lean Startup approach aims for iterative development cycles, through a build-measure-learn process. It is key to keep the iterations short, in order to launch several “minimal viable products” (MVPs) and 
 learn how the users respond into a new iteration. This way of working is now popular also among consultants and incumbents. 
 
 
@@ -26,7 +25,7 @@ learn how the users respond into a new iteration. This way of working is now pop
 </p>
 
 
-Lean Analytics is focusing on the “measure”-step in the Lean Startup framework. With analytics, 
+Lean Analytics however, is focused on the “measure”-step in the Lean Startup framework. With analytics, 
 we try to answer “where you are” and “where you should be going”, by gathering and analyzing data. 
 As a consultant, it is essential to measure in order to show results. With no measurements, we can’t prove any change to the client.
 
