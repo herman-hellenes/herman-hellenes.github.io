@@ -57,6 +57,10 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 </p>
 
 
+<p align="center">
+  <img width="500" height="200" src="/figs/lean-analytics/dilbert_campaign.jpg">
+</p>
+
 
 
 ![center](/figs/lean-analytics/dilbert_campaign.jpg)
