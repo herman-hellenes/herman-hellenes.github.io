@@ -54,6 +54,7 @@ In addition to use a metric that reflects your goal, it is incentivizing your te
 </p>
 
 
+![center](/figs/lean-analytics/dilbert_campaign.jpg)
 
 
 Croll & Yoskoviz are mentioning several rules of thumb for choosing good metrics (p9-10),
