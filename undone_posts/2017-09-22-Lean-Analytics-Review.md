@@ -37,7 +37,7 @@ As a consultant, it is essential to measure in order to show results. With no me
 
  > *"If you can’t measure it, you can’t manage it"* – Peter Druckert
 
-**What makes a good metric? 
+## What makes a good metric? 
 
 In the end of the day, analytics is about tracking the metrics that are critical to your project or business. Following this, a good metric changes the way you behave. For many, this seems obvious, but people are continuously avoiding this, confusing reporting metrics with actionable metrics. 
 It is crucial to define metrics before running into experiments. For example, decide that if your MVP doesn’t increase order size by 30 %, try something else. A good metric changes the way you behave precisely because it is aligned to your goals of keeping users, encouraging word of mouth, acquiring customers efficiently, etc. 
@@ -61,7 +61,7 @@ Croll & Yoskoviz are mentioning several rules of thumb for choosing good metrics
 * **A good metric changes the way you behave.** As mentioned above.
 
 
-**The One Metric That Matters
+## The One Metric That Matters
 
 Now we have some hints of how to choose good metrics. However, how many should we highlight as important? We should at least have One Metric That Matters. This metric should fulfill the following
 
@@ -79,7 +79,7 @@ This does not imply that you only have one metric, it is useful to keep an eye o
 
 
 
-** Wrapup
+## Wrapup
 
 Lean Analytics is much more about **what** and **why** you should measure, not that much about how. That’s completely ok, since this book is not trying to target Advanced Analytics such as predictive modelling in any great extent, but rather focus on simple “BI” measurements. In both cases, it is just as important to discuss the what and why before diving into technicalities and modelling, in order to produce value.
 
