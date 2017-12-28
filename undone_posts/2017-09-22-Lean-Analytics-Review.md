@@ -9,7 +9,7 @@ comments: true
 
 Hi there, I hope you have a great day. Are you open for some toughts on how effectivly measure KPIs in a business, which KPIs are relevant and why you should at all bother? 
 
-These topics are crucial for leaders, business analysts as well as data scientists. Metrics that drive change and incorporate the firm's strategy are vital to put in place by the leaders. A business analyst help out with this and give supplementing measures to tell a more nuanced view. Data Scientists often try to improve key metrics aligned with the firm's strategy and need to show with hard numbers if their contribution succeeded. If any of this roles and topics seems familiar, this book review would hopefully be interesting..  
+These topics are crucial for leaders, business analysts as well as data scientists. Metrics that drive change and incorporate the firm's strategy are vital to put in place by the leaders. A business analyst help out with this and give supplementing measures to tell a more nuanced view. Data Scientists often try to improve key metrics aligned with the firm's strategy and formulate new predictive questions for different business problems. But they also and need to show with hard numbers, metrics, if their contribution succeeded. If any of this roles and topics seems familiar, this book review would hopefully be interesting..  
 
 <p align="center">
   <img width="200" height="280" src="/figs/lean-analytics/book-cover-full_2.png">
