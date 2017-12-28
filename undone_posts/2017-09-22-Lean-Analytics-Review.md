@@ -8,7 +8,7 @@ comments: true
 
 
 <p align="center">
-  <img width="300" height="420" src="/figs/lean-analytics/book-cover-full_2.png">
+  <img width="200" height="280" src="/figs/lean-analytics/book-cover-full_2.png">
 </p>
 
 
