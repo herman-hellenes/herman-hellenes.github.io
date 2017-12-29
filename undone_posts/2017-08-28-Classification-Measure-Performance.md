@@ -28,7 +28,7 @@ Here we have a binary classification problem, where the labels are "churn" or "n
 * The correct lable is negative and the model predicted negative. This is called true negative (TN).
 
 <p align="center">
-  <img width="300" height="300" src="/figs/classification_measure/conf_matrix_1.png">
+  <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
 
 
