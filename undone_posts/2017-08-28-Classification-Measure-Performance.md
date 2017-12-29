@@ -3,6 +3,7 @@ layout: post
 title: "Art of Measuring your Model"
 date: 2018-01-4
 comments: true
+mathjax: true
 ---
 
 How do you measure how good your model is? This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort that is put into this in the lab. The same is present in the "Data Lab".
