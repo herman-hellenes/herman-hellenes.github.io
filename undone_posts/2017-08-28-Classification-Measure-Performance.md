@@ -5,9 +5,12 @@ date: 2017-08-28
 comments: true
 ---
 
-Hey there you beautiful ladies and gentlemen, señoras y señores, damen und herren, 女士们(們) 先生们(們 ! Hope everything is going well you.
-In this post, I will write a bit about the how we measure the performance of classification models. We will concentrate on binary 
-classification. We will look at the themes of
+Hey there ! Hope everything is going well you.
+
+How do you measure how good your model is? This might seem like a simple question, however it is quite intricate. This is one of the most important thing to get right doing Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort is put into these steps in the lab. It is the same thing here!
+
+In this post, we will look into measuring the performance of classification models. Binary 
+classification models to be precise. Such models are rather intuitive, as well as they are very suited to problems you will face in both business and academia. We will look at the themes of
 
 * Confusion Matrix
 * Important ratios from the confusion matrix, and how the threshold impacts them and the volumes.
@@ -16,6 +19,21 @@ classification. We will look at the themes of
 
 
 ## Confusion Matrix
+First of all, a binary classification problem is simply to lable each of your situations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts if the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note that in this situation it is useful to account for the expected return from the customer as well, but that is another story.
+
+Here we have a binary classification problem, where the labels are "churn" or "no churn". The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
+* The correct lable is positive and the model predicted positive. This is called true positive (TP).
+* The correct lable is negative and the model predicted positive. This is called false positive (FP).
+* The correct lable is positive and the model predicted negative. This is called false negative (FN).
+* The correct lable is negative and the model predicted negative. This is called true negative (TN).
+
+<p align="center">
+  <img width="300" height="300" src="/figs/classification_measure/conf_matrix_1.png">
+</p>
+
+
+
+
 "Let us consider a two-class prediction problem (binary classification), in which the outcomes are labeled either as positive (p) or negative (n). There are four possible outcomes from a binary classifier. If the outcome from a prediction is p and the actual value is also p, then it is called a true positive (TP); however if the actual value is n then it is said to be a false positive (FP). Conversely, a true negative (TN) has occurred when both the prediction outcome and the actual value are n, and false negative (FN) is when the prediction outcome is n while the actual value is p.
 " - https://en.wikipedia.org/wiki/Receiver_operating_characteristic
 
