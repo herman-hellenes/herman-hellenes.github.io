@@ -1,44 +1,42 @@
 ---
 layout: post
-title: "Classification - Measuring Performance"
-date: 2017-08-28
+title: "Art of Measuring your Model"
+date: 2018-01-4
 comments: true
 ---
 
-Hey there ! Hope everything is going well you.
+How do you measure how good your model is? This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort that is put into this in the lab. The same is present in the "Data Lab".
 
-How do you measure how good your model is? This might seem like a simple question, however it is quite intricate. This is one of the most important thing to get right doing Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort is put into these steps in the lab. It is the same thing here!
+Before going into details of how and what to measure, *why* do we need to measure? A scientific result aims to tell us, in an objective way, how our experiment went and what we can conclude from this. Both in business and academia, we are tempted to tweak our performance metrics in our favour. As a very good rule of thump, we should always strive for living up to the first principle of science according to the Nobel Prize winner in Physics, Richard Feynman
 
-In this post, we will look into measuring the performance of classification models. Binary 
-classification models to be precise. Such models are rather intuitive, as well as they are very suited to problems you will face in both business and academia. We will look at the themes of
+> *You must not fool yourself — and you are the easiest person to fool.* 
 
-* Confusion Matrix
-* Important ratios from the confusion matrix, and how the threshold impacts them and the volumes.
-* Receiver operating characteristic (ROC), Area Under Curve, and other plots.
-
-
+In this post, we will keep this quote in mind when investigating the performance metrics of classification models. Binary 
+classification models, to be precise. Such models are rather intuitive and well suited to problems we often face in both business and academia. 
 
 ## Confusion Matrix
-First of all, a binary classification problem is simply to lable each of your situations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts if the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
+First of all, a binary classification problem is simply attempt labeling each of your observations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts that the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
 
 <p align="center">
   <img width="400" height="200" src="/figs/classification_measure/validation_ml.png">
 </p>
 
 
-Here we have a binary classification problem, where the labels are "churn" or "no churn". The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
+Here we thus have a binary classification problem, where the labels are "churn" or "no churn", two options. The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
 * The correct lable is positive and the model predicted positive. This is called true positive (TP).
 * The correct lable is negative and the model predicted positive. This is called false positive (FP).
 * The correct lable is positive and the model predicted negative. This is called false negative (FN).
 * The correct lable is negative and the model predicted negative. This is called true negative (TN).
 
-So, say we try to test the model with 100 positive observation, and 100 negative observations. In total 200 persons like George in the figure above. Now things are becoming interesting, since we will need a lot of observations to find anything statistical significant about our model performance. Let's consider the following result
+Note that we often deal with a model that outputs a range of how likely it consider a certain lable to be correct. Let us choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. How we choose this cut-off is important, as we will see later.
+
+Back to the confusion matrix; say we try to test the model with 100 positive observation, and 100 negative observations. In total we then deal with 200 costumers, like George, as in the figure above. Now things are becoming interesting, since we will need a lot of observations to find anything statistical significant about our model performance. Let's consider the following result
 
 <p align="center">
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
 
-
+Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of here is called *accuracy*, the number of correct predictions divided on the total observations, which here is . Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives ($\sum TP / \sum (TP + FP)$). This is called *true positive rate*, and tell you how well you predict positive observations.
 
 
 
