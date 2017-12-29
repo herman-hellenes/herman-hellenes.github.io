@@ -6,6 +6,9 @@ comments: true
 mathjax: true
 ---
 
+$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+
+
 How do you measure how good your model is? This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort that is put into this in the lab. The same is present in the "Data Lab".
 
 Before going into details of how and what to measure, *why* do we need to measure? A scientific result aims to tell us, in an objective way, how our experiment went and what we can conclude from this. Both in business and academia, we are tempted to tweak our performance metrics in our favour. As a very good rule of thump, we should always strive for living up to the first principle of science according to the Nobel Prize winner in Physics, Richard Feynman
