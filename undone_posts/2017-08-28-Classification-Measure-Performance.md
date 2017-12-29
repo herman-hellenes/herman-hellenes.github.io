@@ -19,7 +19,12 @@ classification models to be precise. Such models are rather intuitive, as well a
 
 
 ## Confusion Matrix
-First of all, a binary classification problem is simply to lable each of your situations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts if the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note that in this situation it is useful to account for the expected return from the customer as well, but that is another story.
+First of all, a binary classification problem is simply to lable each of your situations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts if the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
+
+<p align="center">
+  <img width="300" height="200" src="/figs/classification_measure/validation_ml.png">
+</p>
+
 
 Here we have a binary classification problem, where the labels are "churn" or "no churn". The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
 * The correct lable is positive and the model predicted positive. This is called true positive (TP).
