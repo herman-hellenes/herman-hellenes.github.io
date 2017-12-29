@@ -6,8 +6,6 @@ comments: true
 mathjax: true
 ---
 
-$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
-
 
 How do you measure how good your model is? This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how much effort that is put into this in the lab. The same is present in the "Data Lab".
 
@@ -21,18 +19,17 @@ classification models, to be precise. Such models are rather intuitive and well 
 ## Confusion Matrix
 First of all, a binary classification problem is simply attempt labeling each of your observations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts that the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
 
+In our binary classification problem we attempt to lable "churn" or "no churn", namly two options. The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
+
+<p align="center">
+  <img width="400" height="200" src="/figs/classification_measure/confusion_matrix_1.png">
+</p>
+
+The above figure represent the *confusion matrix*, which summarize up the outcome of our the binary classification problem. Note that we often deal with a model that outputs a range of how likely it consider a certain lable to be correct. Let us choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. How we choose this cut-off is important, as we will see later.
+
 <p align="center">
   <img width="400" height="200" src="/figs/classification_measure/validation_ml.png">
 </p>
-
-
-Here we thus have a binary classification problem, where the labels are "churn" or "no churn", two options. The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
-* The correct lable is positive and the model predicted positive. This is called true positive (TP).
-* The correct lable is negative and the model predicted positive. This is called false positive (FP).
-* The correct lable is positive and the model predicted negative. This is called false negative (FN).
-* The correct lable is negative and the model predicted negative. This is called true negative (TN).
-
-Note that we often deal with a model that outputs a range of how likely it consider a certain lable to be correct. Let us choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. How we choose this cut-off is important, as we will see later.
 
 Back to the confusion matrix; say we try to test the model with 100 positive observation, and 100 negative observations. In total we then deal with 200 costumers, like George, as in the figure above. Now things are becoming interesting, since we will need a lot of observations to find anything statistical significant about our model performance. Let's consider the following result
 
