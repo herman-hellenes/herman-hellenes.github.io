@@ -22,7 +22,7 @@ classification models to be precise. Such models are rather intuitive, as well a
 First of all, a binary classification problem is simply to lable each of your situations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts if the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
 
 <p align="center">
-  <img width="300" height="200" src="/figs/classification_measure/validation_ml.png">
+  <img width="400" height="200" src="/figs/classification_measure/validation_ml.png">
 </p>
 
 
@@ -32,6 +32,8 @@ Here we have a binary classification problem, where the labels are "churn" or "n
 * The correct lable is positive and the model predicted negative. This is called false negative (FN).
 * The correct lable is negative and the model predicted negative. This is called true negative (TN).
 
+So, say we try to test the model with 100 positive observation, and 100 negative observations. In total 200 persons like George in the figure above. Now things are becoming interesting, since we will need a lot of observations to find anything statistical significant about our model performance. Let's consider the following result
+
 <p align="center">
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
@@ -39,8 +41,6 @@ Here we have a binary classification problem, where the labels are "churn" or "n
 
 
 
-"Let us consider a two-class prediction problem (binary classification), in which the outcomes are labeled either as positive (p) or negative (n). There are four possible outcomes from a binary classifier. If the outcome from a prediction is p and the actual value is also p, then it is called a true positive (TP); however if the actual value is n then it is said to be a false positive (FP). Conversely, a true negative (TN) has occurred when both the prediction outcome and the actual value are n, and false negative (FN) is when the prediction outcome is n while the actual value is p.
-" - https://en.wikipedia.org/wiki/Receiver_operating_characteristic
 
 
 confusionMatrix(data = test_set$pred, reference = test_set$obs)
