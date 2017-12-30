@@ -21,6 +21,7 @@ http://blog.revolutionanalytics.com/2016/06/bayesian-optimization-of-machine-lea
 https://www.r-bloggers.com/simulated-annealing-feature-selection/
 https://cran.r-project.org/web/packages/GenSA/GenSA.pdf
 
+* business of AI HBR: https://hbr.org/cover-story/2017/07/the-business-of-artificial-intelligence
 
 * Tree models
 What is desicion trees, bagging, boosting, random forrest? A very good book to understand the ML-techniques: Intro to statistical learning. See also my emails etc if I find those nice videoes..
@@ -40,4 +41,23 @@ https://mapr.com/blog/apache-spark-vs-mapreduce-whiteboard-walkthrough/
 * Applications
 Hedge funds very nice : https://www.ft.com/content/d86ad460-8802-11e7-bf50-e1c239b45787
 FS in general: http://www.kdnuggets.com/2017/09/machine-learning-algorithms-lending.html#%2EWbl2aYGefhw%2Elinkedin
+
+
+
+
+
+Cross validation: 
+- Man tar et "test set" av treningssettet, og validerer på dette settet etter har lagd en model. Gjør dette flere ganger har vi k-fold, der vi setter opp k bins. Vi velger så den modellen som ga lavest error. SÅ tankegangen er "litt" som bagging,, for fortsatt helt forskjellig konsept. https://www.youtube.com/watch?v=sFO2ff-gTh0. : https://www.youtube.com/watch?v=TIgfjmp-4BA
+
+
+Bagging (bootstrap aggregating)
+- tar ut et subset n av treninsettet tilfeldig med replacement, og lager en modell. Gjør dette m ganger (m bags). Så tar average modell og bruker. Gjør ingen cross validation som default (men kan sikkert adde på som på boosting). https://www.youtube.com/watch?v=2Mg8QD0F1dQ
+
+Random Forest:
+- Tar bagging, men tar et utvalg av predictors hver gang! https://www.youtube.com/watch?v=6yICuCnlh5Q
+
+
+
+Boosting:
+- ganske likt bagging; men tar ikke bare average. For hver bag du lager, legger du mer vekt på det du predikterte dårlig, i neste bag! Så boosting så gror du treet SEKVELSIELT, altså ikke som med bagging og RF som gjør det parallelt.... Gjør en test på treningssettet, så det er litt nærmere  bagging + cross validation. Men ikke helt samme tankegangen, fordi bla boosting vektlegger på en spesiell måte (som gradient boosting feks). https://www.youtube.com/watch?v=GM3CDQfQ4sw
 
