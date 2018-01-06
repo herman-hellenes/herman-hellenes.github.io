@@ -29,7 +29,7 @@ First of all, a binary classification problem is simply attempt labeling each of
   <img width="400" height="200" src="/figs/classification_measure/validation_ml.png">
 </p>
 
-In our binary classification problem we attempt to lable "churn" or "no churn", namly two options. The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a unseen test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
+In our binary classification problem we attempt to lable "churn" or "no churn", namly two options. The convension is to rather say "positive" (p) or "negative" (n), in order to be more general. So say you have build a model you would like to evaluate. We take a *unseen* test set of customers, meaning the model has not seen this data before, but we sit with the correct lables to verify how well the model perform. When applying the model on the current customers, we have four possible outcomes per customer:
 
 <p align="center">
   <img width="400" height="200" src="/figs/classification_measure/confusion_matrix_1.png">
@@ -44,21 +44,12 @@ Back to the confusion matrix; say we try to test the model with 100 positive obs
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
 
-Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of here is called *accuracy*, the number of correct predictions divided on the total observations, which here is . Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives ($\sum TP / \sum (TP + FP)$). This is called *true positive rate*, and tell you how well you predict positive observations.
+Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of is called *accuracy*, the number of correct predictions divided on the total observations, which here is (63+72)/(28+37+63+72) = 67.5 %. Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell you how well you predict positive observations. But which metric should we use? They all have their drawbacks...
 
+## How to select a good performance metric ?
 
+Depends on your problem!
 
-
-confusionMatrix(data = test_set$pred, reference = test_set$obs)
-
-sensitivity, recall, hit rate, or true positive rate (TPR)
-{\displaystyle \mathrm {TPR} ={\frac {\mathrm {TP} }{P}}={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FN} }}} {\displaystyle \mathrm {TPR} ={\frac {\mathrm {TP} }{P}}={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FN} }}}
-specificity or true negative rate (TNR)
-{\displaystyle \mathrm {TNR} ={\frac {\mathrm {TN} }{N}}={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FP} }}} {\displaystyle \mathrm {TNR} ={\frac {\mathrm {TN} }{N}}={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FP} }}}
-precision or positive predictive value (PPV)
-{\displaystyle \mathrm {PPV} ={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FP} }}} {\displaystyle \mathrm {PPV} ={\frac {\mathrm {TP} }{\mathrm {TP} +\mathrm {FP} }}}
-negative predictive value (NPV)
-{\displaystyle \mathrm {NPV} ={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FN} }}} {\displaystyle \mathrm {NPV} ={\frac {\mathrm {TN} }{\mathrm {TN} +\mathrm {FN} }}}
 
 
 ## Receiver operating characteristic (ROC), Area Under Curve, and other plots.
