@@ -35,8 +35,9 @@ In our binary classification problem we attempt to lable "churn" or "no churn", 
   <img width="400" height="200" src="/figs/classification_measure/confusion_matrix_1.png">
 </p>
 
-The above figure represent the *confusion matrix*, which summarize up the outcome of our the binary classification problem. Note that we often deal with a model that outputs a range of how likely it consider a certain lable to be correct. Let us choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. How we choose this cut-off is important, as we will see later.
+The above figure represent the *confusion matrix*, which summarize up the outcome of our the binary classification problem. Note that we often deal with a model that outputs a range of how likely it consider a certain lable to be correct. Let us choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. Thus we have a new dimension to our problem; the cut-off. How we choose this cut-off is important we will see later on.
 
+## Ratios from the confusion matrix
 
 Back to the confusion matrix; say we try to test the model with 100 positive observation, and 100 negative observations. In total we then deal with 200 costumers, like George, as in the figure above. Now things are becoming interesting, since we will need a lot of observations to find anything statistical significant about our model performance. Let's consider the following result
 
@@ -44,7 +45,13 @@ Back to the confusion matrix; say we try to test the model with 100 positive obs
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
 
-Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of is called *accuracy*, the number of correct predictions divided on the total observations, which here is (63+72)/(28+37+63+72) = 67.5 %. Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell you how well you predict positive observations. But which metric should we use? They all have their drawbacks...
+Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of is called *accuracy*, the number of correct predictions divided on the total observations, which here is (63+72)/(28+37+63+72) = 67.5 %. Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell you how well you predict positive observations. 
+
+But which metric should we use? They all have their drawbacks... Let's look at some more examples, to illustrate how wrong things can turn out when not paying attention...
+
+1: use accuracy when it is very crucial to not get false negatives (somebody dies)
+2: skewed data
+3: very high/low cutoffs --> and how to find this cutoff?
 
 ## How to select a good performance metric ?
 
