@@ -47,10 +47,11 @@ Back to the confusion matrix; say we try to test the model with 100 positive obs
 
 Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of is called *accuracy*, the number of correct predictions divided on the total observations, which here is (63+72)/(28+37+63+72) = 67.5 %. Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell you how well you predict positive observations. 
 
-But which metric should we use? They all have their drawbacks... Let's look at some more examples, to illustrate how wrong things can turn out when not paying attention...
+**But which metric should we use?** They all have their drawbacks... Let's look at some examples in order to illustrate how wrong things can turn out when not paying attention.
 
-1: use accuracy when it is very crucial to not get false negatives (somebody dies)
-2: skewed data
+1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have a epedemic going, and we have made a model for predicting if persons has the deciece given sympthomas, age, geography etc. If the medical system has good capacity and take this problem very seriosly, we would be very upset to classify some people as healty, where they in reality are sick. On the other hand, it is the secondary priority to not lable in reality healthy people as sick, which will hopefully be reveiled in later diagnosis. In such situation it is helpful to for example look at the true positive rate.
+
+2. We have very skewed data. In looking credit risk, or anti-money-laudering,  When dealing with  skewed data
 3: very high/low cutoffs --> and how to find this cutoff?
 
 ## How to select a good performance metric ?
