@@ -18,7 +18,7 @@ Before going into details of how and what to measure, *why* do we need to measur
 
 > *You must not fool yourself — and you are the easiest person to fool.* 
 
-All the above might be obious for most people. However, I see everyday how sloppy people treat this. In the industry, as practitionares, we are genereally more pragmatic than in acedemia. That does not mean that we should cut corners in this step, even though it is more tempting to train our model with all kind of interesting algorithms.
+We should start on investigating performance metrics **before** we start modelling. Why? Our model is trained with a cost function; how it is learning really depend on how we tell it to distinguish between failure and success. Thus, this is all vital for the modelling itself, not only the evaluation of the results.
 
 In this post, we will keep the Feynman quote in mind when investigating the performance metrics of classification models. Binary 
 classification models, to be precise, in a supervised learning context. Such models are rather intuitive and well suited to problems we often face in both business and academia. 
