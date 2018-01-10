@@ -13,7 +13,7 @@ How do you measure how good your model is? This might seem like a simple questio
   <img width="400" height="200" src="/figs/classification_measure/lewin1.jpg">
 </p>
 
-**Why care about performance measuring in Machine Learning**
+**Why care about performance measuring in Machine Learning?**
 Before going into details of how and what to measure, *why* do we need to measure? A scientific result aims to tell us, in an objective way, how our experiment went and what we can conclude from this. Both in business and academia, we are tempted to tweak our performance metrics in our favour. As a very good rule of thump, we should always strive for living up to the first principle of science according to the Nobel Prize winner in Physics, Richard Feynman
 
 > *You must not fool yourself — and you are the easiest person to fool.* 
