@@ -23,7 +23,7 @@ We should start on investigating performance metrics **before** we start modelli
 In this post, we will keep the Feynman quote in mind when investigating the performance metrics of classification models. Binary 
 classification models, to be precise, in a supervised learning context. Such models are rather intuitive and well suited to problems we often face in both business and academia. 
 
-## Evaluation 101 - the Confusion Matrix
+## Evaluation 101
 First of all, a binary classification problem is simply attempt labeling each of your observations into two classes. As a practical example, say you are working for an insurance firm. You observe that the churn is high on a certain product, without there being some very obious reason for this. Given that you have access to relevant data of your customer, you can construct a model that predicts that the current costumers will leave your firm, or not. This should then be used to do some action; for instance to call up the clients with a high chance of leaving and offer them a lower price. Note: in this situation it is useful to account for the expected return from the customer as well as numerous other details, but that is another story.
 
 
@@ -39,7 +39,7 @@ In our binary classification problem of churn, we attempt to lable "churn" or "n
 
 The above figure represents the *confusion matrix*, which summarize up the outcome of our the binary classification problem. Note that we often deal with a model that outputs a range, instead of binary outcomes. The range then represent how likely the model consider a certain lable to be correct. Let's choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. Thus we have a new dimension to our problem; the cut-off. The cut-off will change the whole confusion matrix, raising and lowering the bar. 
 
-## How to choose the right performance metrics?
+## How to choose the right performance metric(s)?
 
 Let's do an example. Say we try to test the model with 100 positive observations, and 100 negative observations. In total we then deal with 200 unseen observations, that for example can be consumers like George as in the figure above. Now things are becoming interesting, since we will need a lot of observations (often it is required much more than 200) to find anything statistical significant about our model performance. Let's consider the following result
 
