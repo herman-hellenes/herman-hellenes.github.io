@@ -18,6 +18,11 @@ Before going into details of how and what to measure, *why* do we need to measur
 
 > *You must not fool yourself — and you are the easiest person to fool.* 
 
+<p align="center">
+  <img width="400" height="200" src="/figs/classification_measure/feynmanrichardpbio.jpg">
+</p>
+
+
 We should start on investigating performance metrics **before** we start modelling. Why? Our model is trained with a cost function; how it is learning really depend on how we tell it to distinguish between failure and success. Thus, this is all vital for the modelling itself, not only the evaluation of the results. 
 
 In this post, we will keep the Feynman quote in mind when investigating the performance metrics of classification models. Binary 
