@@ -56,6 +56,10 @@ Looking at this table, we see a quite okay result. Most of our observations was 
 
 **But which metric should we use?** They all have their drawbacks... Let's look at some examples in order to illustrate how wrong things can turn out when not paying attention.
 
+<p align="center">
+  <img width="300" height="200" src="/figs/classification_measure/skewed.jpg">
+</p>
+
 1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have a epedemic going, and we have made a model for predicting if persons has the deciece given sympthomas, age, geography etc. If the medical system has good capacity and take this problem very seriosly, we would be very upset to classify some people as healty, where they in reality are sick. On the other hand, it is the secondary priority to not lable in reality healthy people as sick, which will hopefully be reveiled in later diagnosis. In such situation it is helpful to for example look at the true positive rate.
 
 2. We have very skewed data. When investigating credit risk or anti-money-laundering, the data often turn out skewed. Hopefully, not many bank customers are doing money laundering. Then we can end up having over 90 % of the lable corresponding to honest customers. If we would evaluate our model in terms of accuracy, we would have 90 % accuracy with a model just predicting all customers as honest. That is no value added data science work.
