@@ -19,7 +19,7 @@ Before going into details of how and what to measure, *why* do we need to measur
 > *You must not fool yourself — and you are the easiest person to fool.* 
 
 <p align="center">
-  <img width="400" height="200" src="/figs/classification_measure/feynmanrichardpbio.jpg">
+  <img width="200" height="200" src="/figs/classification_measure/feynmanrichardpbio.jpg">
 </p>
 
 
@@ -74,6 +74,8 @@ Looking at this table, we see a quite okay result. Most of our observations was 
 
 ## Wrapup
 
-All in all; performance metrics are vital in order to 1. evaluate your model correctly, and 2. train your model to solve the right problem. And how do we know? Through knowing your business case and data. There are no free lunch here, and it all depends on your problem.
+All in all, performance metrics are vital in order to 1: **evaluate your model correctly**, and 2: **train your model to solve the right problem**. And how do we know? Through carefully designing your business case and investigating the data. 
+
+Many thinks that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch, and the approach and solution must be customized your problem.
 
 Cheers!
