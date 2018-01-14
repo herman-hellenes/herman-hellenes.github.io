@@ -42,7 +42,13 @@ In our binary classification problem of churn, we attempt to lable "churn" or "n
   <img width="300" height="200" src="/figs/classification_measure/confusion_matrix_1.png">
 </p>
 
-The above figure represents the *confusion matrix*, which summarize up the outcome of our the binary classification problem. Note that we often deal with a model that outputs a range, instead of binary outcomes. The range then represent how likely the model consider a certain lable to be correct. Let's choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. Thus we have a new dimension to our problem; the cut-off. The cut-off will change the whole confusion matrix, raising and lowering the bar. 
+The above figure represents the *confusion matrix*, which summarize up the outcome of our the binary classification problem. In a binary case, we have four outcomes as explained in the figure; true positive, true negative, false positive and false negative. 
+
+<p align="center">
+  <img width="300" height="200" src="/figs/classification_measure/pregnant.jpg">
+</p>
+
+Note that we often deal with a model that outputs a range, instead of binary outcomes. The range then represent how likely the model consider a certain lable to be correct. Let's choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. Thus we have a new dimension to our problem; the cut-off. The cut-off will change the whole confusion matrix, raising and lowering the bar. 
 
 ## How to choose the right performance metric(s)?
 
