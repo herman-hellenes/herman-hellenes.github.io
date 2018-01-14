@@ -44,10 +44,6 @@ In our binary classification problem of churn, we attempt to lable "churn" or "n
 
 The above figure represents the *confusion matrix*, which summarize up the outcome of our the binary classification problem. In a binary case, we have four outcomes as explained in the figure; true positive, true negative, false positive and false negative. 
 
-<p align="center">
-  <img width="300" height="200" src="/figs/classification_measure/pregnant.jpg">
-</p>
-
 Note that we often deal with a model that outputs a range, instead of binary outcomes. The range then represent how likely the model consider a certain lable to be correct. Let's choose this range to be between 0 and 1. In order to match this with a binary label, we have to introduce a *cut-off*. For example, we can say that all outputs above 0.5 correspond to the positive label, and below correspond to the negative. Thus we have a new dimension to our problem; the cut-off. The cut-off will change the whole confusion matrix, raising and lowering the bar. 
 
 ## How to choose the right performance metric(s)?
@@ -67,6 +63,10 @@ Looking at this table, we see a quite okay result. Most of our observations was 
 </p>
 
 1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have a epedemic going, and we have made a model for predicting if persons has the deciece given sympthomas, age, geography etc. If the medical system has good capacity and take this problem very seriosly, we would be very upset to classify some people as healty, where they in reality are sick. On the other hand, it is the secondary priority to not lable in reality healthy people as sick, which will hopefully be reveiled in later diagnosis. In such situation it is helpful to for example look at the true positive rate.
+
+<p align="center">
+  <img width="300" height="200" src="/figs/classification_measure/pregnant.jpg">
+</p>
 
 2. We have very skewed data. When investigating credit risk or anti-money-laundering, the data often turn out skewed. Hopefully, not many bank customers are doing money laundering. Then we can end up having over 90 % of the lable corresponding to honest customers. If we would evaluate our model in terms of accuracy, we would have 90 % accuracy with a model just predicting all customers as honest. That is no value added data science work.
 
