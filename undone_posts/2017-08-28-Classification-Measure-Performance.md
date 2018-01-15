@@ -23,9 +23,9 @@ Before going into details of how and what to measure - *why* do we need to measu
 </p>
 
 
-We should even start to investigate performance metrics **before** we start modelling. Why? Our model is trained with a cost function; how it is learning really depend on how we tell it to distinguish between failure and success. Thus, this is all vital for the modelling itself, not only the evaluation of the results. 
+We should even start to investigate performance metrics **before** we start modelling. Why? Our model is trained with a cost function; how it's learning really depends on how we tell it to distinguish between failure and success. Thus, performance metrics are vital for the modelling itself, not only the evaluation of the results. 
 
-In this post, we will keep the Feynman quote in mind when investigating the performance metrics of classification models. Binary 
+In this post, we will keep the Feynman quote above in mind when investigating the performance metrics of classification models. Binary 
 classification models, to be precise, in a supervised learning context. Such models are rather intuitive and well suited to problems we often face in both business and academia. 
 
 ## Evaluation 101
