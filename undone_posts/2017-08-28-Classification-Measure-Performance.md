@@ -7,7 +7,7 @@ mathjax: true
 ---
 
 
-**How do you measure how good your model is?** This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how important it is to get this right in the lab. The same is present in the "Data Lab".
+**How do you measure how good your model is?** This might seem like a simple question. But it is not that straight forward to answer. Model validation is one of the most important thing to get right in Data Science. As in all other sciences, running experiments and measuring the results in an unbiased way, is really the core of it all. For those of you having a background in science, you sure know how important this is in the lab. The same is present in the "Data Lab".
 
 <p align="center">
   <img width="400" height="200" src="/figs/classification_measure/lewin1.jpg">
