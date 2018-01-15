@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The size does not matter, if you are measuring the wrong thing"
-date: 2018-01-4
+date: 2018-01-16
 comments: true
 mathjax: true
 ---
