@@ -53,7 +53,7 @@ Let's do an example. Say we try to test the model with 100 positive observations
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
 </p>
 
-Looking at this table, we see a quite okay result. Most of our observations was classified correct, meaning as either true negatives or true positives. This ratio we speak of is called *accuracy*, the number of correct predictions divided on the total observations, which here is (63+72)/(28+37+63+72) = 67.5 %. Further we can look into many other simple rations, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell you how well you predict positive observations. 
+Looking at this table, we see a quite okay result. Most of our observations were classified correctly, as true negatives and true positives. The ratio reflecting this is called *accuracy*; the number of correct predictions divided on the total observations. Here, the accuracy is (63+72)/(28+37+63+72) = 67.5 %. We can look into many other simple ratios, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell us how well we predict positive observations. 
 
 **But which metric should we use?** They all have their drawbacks... Let's look at some examples in order to illustrate how wrong things can turn out when not paying attention.
 
@@ -61,20 +61,20 @@ Looking at this table, we see a quite okay result. Most of our observations was 
   <img width="300" height="200" src="/figs/classification_measure/skewed.jpg">
 </p>
 
-1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have a epedemic going, and we have made a model for predicting if persons has the deciece given sympthomas, age, geography etc. If the medical system has good capacity and take this problem very seriosly, we would be very upset to classify some people as healty, where they in reality are sick. On the other hand, it is the secondary priority to not label in reality healthy people as sick, which will hopefully be reveiled in later diagnosis. In such situation it is helpful to for example look at the true positive rate.
+1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have an epedemic going, and we want to make a model for predicting if a person has the disease or not. If the medical system has good capacity and take this problem very seriously, we would be very upset to classify some people as healty, where they in reality are sick. We don't want label healthy people as sick, but this is of lower priority and will hopefully be revealed in later diagnosis. This implies that we should pay more attention to the true positive rate than the accuracy.
 
 <p align="center">
   <img width="400" height="266" src="/figs/classification_measure/pregnant.jpg">
 </p>
 
-2. We have very skewed data. When investigating credit risk or anti-money-laundering, the data often turn out skewed. Hopefully, not many bank customers are doing money laundering. Then we can end up having over 90 % of the label corresponding to honest customers. If we would evaluate our model in terms of accuracy, we would have 90 % accuracy with a model just predicting all customers as honest. That is no value added data science work.
+2. We have very skewed data. In anti-money-laundering programs, the data often turn out skewed. Often (and hopefully) are not too many customers involved in money laundering. Then we can end up having e.g. over 90 % of the label corresponding to honest customers. If we would evaluate our model in terms of accuracy, we would have 90 % accuracy with a model that's predicting all customers as honest. That number can trick people to think your model is brilliant, but is in reality worth nothing. 
 
-3. The observant reader might wonder; what about the *cut-off*?? The cut-off will influence the whole confusion matrix, and thus also the derived ratios. In fact, all ratios are turned into vectors, where each point on the vector correspond to a cut-off. Plotting confusion ratios with respect to the cut-off is then useful, for example through using the (ROC-curve)[https://en.wikipedia.org/wiki/Receiver_operating_characteristic].
+3. The observant reader might wonder; what about the *cut-off* mentioned above?? The cut-off will influence the whole confusion matrix, and thus also the derived ratios. In fact, all ratios are turned into vectors, where each point on the vector corresponds to a certain cut-off. Plotting these confusion ratios with respect to the cut-off are useful, for example through using the (ROC-curve)[https://en.wikipedia.org/wiki/Receiver_operating_characteristic]. The perhaps most common practice is to use a derived value from the ROC-curve as the main performance metric of the model, called the (AUC)[https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve]. 
 
 ## Wrapup
 
 All in all, performance metrics are vital in order to 1: **evaluate your model correctly**, and 2: **train your model to solve the right problem**. And how do we know? Through carefully designing your business case and investigating the data. 
 
-Many thinks that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch, and the approach and solution must be customized your problem.
+It was not indended in this post to give out a recipe of how to measure. Many thinks that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch, and the approach and solution must be customized your problem.
 
 Cheers!
