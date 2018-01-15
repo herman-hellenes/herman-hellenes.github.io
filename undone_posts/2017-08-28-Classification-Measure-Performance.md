@@ -75,6 +75,6 @@ Looking at this table, we see a quite okay result. Most of our observations were
 
 All in all, performance metrics are vital in order to 1: **evaluate your model correctly**, and 2: **train your model to solve the right problem**. And how do we know? Through carefully designing your business case and investigating the data. 
 
-It was not indended in this post to give out a recipe of how to measure. Many thinks that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch, and the approach and solution must be customized your problem.
+It was not indended in this post to give out a recipe of how to measure. Many think that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch; the approach and solution must be customized your problem.
 
 Cheers!
