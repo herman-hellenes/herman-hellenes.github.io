@@ -62,7 +62,6 @@ Looking at this table, we see a quite okay result. Most of our observations were
 </p>
 
 1. In some situations, false negatives and false positives are not symmetrically "bad". Say we have an epidemic going, and we want to make a model for predicting if a person has the disease or not. If the medical system has good capacity and take this problem very seriously, we would be very upset to classify some people as healthy, where they in reality are sick. We don't want to label healthy people as sick, but this is of lower priority. A clever doctor will probably figure this out in later diagnosis. This implies that we should pay more attention to the true positive rate than the accuracy.
-
 <p align="center">
   <img width="400" height="266" src="/figs/classification_measure/pregnant.jpg">
 </p>
