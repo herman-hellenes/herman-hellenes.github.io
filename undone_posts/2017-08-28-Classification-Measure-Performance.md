@@ -37,7 +37,7 @@ A binary classification problem is simply the attempt of labeling our observatio
 In our binary classification problem of churn, we attempt to label "churn" or "no churn", i.e. two options. The convention is to name the labels as "positive" (p) or "negative" (n), in order to be more general. Say we have built a model and we'd like to evaluate it. Then we should use a *unseen* test set of customers, meaning the model has not been trained with this data. However, *we* know the correct labels and can use that to verify how well the model performs. When applying the model on the current customers, we have four possible outcomes per customer:
 
 <p align="center">
-  <img width="300" height="200" src="/figs/classification_measure/confusion_matrix_1.png">
+  <img width="300" height="220" src="/figs/classification_measure/confusion_matrix_1.png">
 </p>
 
 The above figure represents the *confusion matrix*. This summarize the outcome of our binary classification problem. In a binary case, we have four outcomes as explained in the figure; true positive, true negative, false positive and false negative. 
