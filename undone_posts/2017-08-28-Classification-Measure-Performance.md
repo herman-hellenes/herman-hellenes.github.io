@@ -46,7 +46,7 @@ Note that we often deal with models that outputs a range, instead of binary outc
 
 ## How to choose the right performance metric(s)?
 
-Let's look at the following example. We test the trained model with a test set consisting of 100 positive observations, and 100 negative observations. We then deal with 200 unseen observations in total, which can be consumers like George in the figure above. Now things are becoming interesting, since we will need many observations (often it is required much more than 200) to find anything statistical significant about our model performance. Let's consider the following result
+Let's look at the following example. We test the trained model with a test set consisting of 100 positive observations, and 100 negative observations. We then deal with 200 unseen observations in total, which can be consumers like the stick man George in the figure above. Now things are becoming interesting, since we will need many observations (often it is required much more than 200) to find anything statistical significant about our model performance. Let's consider the following result
 
 <p align="center">
   <img width="300" height="200" src="/figs/classification_measure/conf_matrix_1.png">
@@ -54,26 +54,26 @@ Let's look at the following example. We test the trained model with a test set c
 
 Looking at this table, we see a quite reasonable result. Most of our observations were classified correctly (as true negatives and true positives). The ratio reflecting this is called *accuracy*; the number of correct predictions divided on the total observations. Here, the accuracy is (63+72)/(28+37+63+72) = 67.5 %. We can look into many other simple ratios, for example the sum of true positives divided by the all the actual positives. This is called *true positive rate*, and tell us how well we predict positive observations. 
 
-**But which metric should we use?** They all have their drawbacks... Let's look at some examples in order to illustrate how wrong things can turn out when not paying attention.
+**But which metric should we use?** They all have their drawbacks... Let's look at some examples in order to illustrate what can go wrong when not paying attention.
 
 <p align="center">
   <img width="300" height="200" src="/figs/classification_measure/skewed.jpg">
 </p>
 
-* In some situations, false negatives and false positives are not symmetrically "bad". Say we have an epidemic going, and we want to make a model for predicting if a person has the disease or not. If the medical system has good capacity and take this problem very seriously, we would be very upset to classify some people as healthy, where they in reality are sick. We don't want to label healthy people as sick, but this is of lower priority. A clever doctor will probably figure this out in later diagnosis. This implies that we should pay more attention to the true positive rate than the accuracy.
+* In some situations, false negatives and false positives are not symmetrically "bad". Say we focus on a virus like Ebola, where we want to construct a model for predicting if a person has the disease or not. Assume also that the hospitals prioritize this issue to a large extent and thus have large capacity. We would be very upset to classify some people as healthy, where they in reality are sick. We don't want to label healthy people as sick, but this is of lower priority. A clever doctor will probably figure this out in later diagnosis. This implies that we should pay more attention to the true positive rate than the accuracy.
 <p align="center">
   <img width="400" height="266" src="/figs/classification_measure/pregnant.jpg">
 </p>
 
-* We have very skewed data. In anti-money-laundering programs, the data often turn out skewed. Often (and hopefully) are not too many customers involved in money laundering. Then we can end up having e.g. over 90 % of the label corresponding to honest customers. If we would evaluate our model in terms of accuracy, we would have 90 % accuracy with a model that's predicting all customers as honest. That number can trick people to think your model is brilliant, but is in reality worth nothing. 
+* We have very skewed data. In anti-money-laundering compliance, the data are generally very skewed. Often (and hopefully) are not too many customers involved in money laundering. If we would evaluate our model in terms of accuracy, we would then have a very high accuracy using a model that's predicting all customers as honest. That number can trick people to think your model is brilliant, but is in reality worth nothing. Such problems can be quite hard to model, since the learning mechanism has rather limited number of the small group examples. There are many techniques to deal with skewness, both from a metric perspective and sampling perspective.
 
-* The observant reader might wonder; what about the *cut-off* mentioned above?? The cut-off will influence the whole confusion matrix, and thus also the derived ratios. In fact, all ratios are turned into vectors, where each point on the vector corresponds to a certain cut-off. Plotting these confusion ratios with respect to the cut-off are useful, for example through using the [ROC-curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic). The perhaps most common practice is to use a derived value from the ROC-curve as the main performance metric of the model, called the [Area under the curve (AUC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve).
+* The observant reader might wonder; what about the *cut-off* mentioned above? The cut-off will influence the whole confusion matrix, and thus its derived ratios too. In fact, all ratios are turned into vectors, where each point on the vector will correspond to a certain cut-off. Plotting these confusion ratios with respect to the cut-off are useful, for example through using the [ROC-curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic). The perhaps most common practice is to use a derived value from the ROC-curve as the main performance metric of the model, called the [Area under the curve (AUC)](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve).
 
 ## Wrap-up
 
-Overall, performance metrics are vital in order to 1: **evaluate your model correctly**, and 2: **train your model to solve the right problem**. Moreover, how do we know which to pick? Through carefully designing your business case and investigating the data.
+Overall, performance metrics are vital in order to 1: **evaluate your model correctly**, and 2: **train your model to solve the right problem**. We choose our performance metrics through carefully designing our business case and having a good understanding of the underlying data.
 
-It was not the intension to give out a recipe of how to measure in this post. Many think that Machine Learning is a simple "plug in" you can throw data at, and out comes a good model. However, there are no free lunch; the approach and solution must be customized your problem.
+The intension in this post was not to give out a recipe of how to measure. Many think that Machine Learning is a simple "plug-in" you can throw data at and out comes a good model. However, there are no free lunch here; the approach and solution must be customized to your problem.
 
 Cheers!
 
