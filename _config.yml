@@ -4,7 +4,7 @@ permalink:           blogposts/:categories/:title
 # Setup
 title:               
 tagline:             'Website and blog of Herman Hellenes'
-description:         'Physics M.Sc. and Data Scientist at EY.'
+description:         'Physics M.Sc., Data Scientist and Finance Quant.'
 url:                 http://herman-hellenes.github.io
 baseurl:             ''
 highlighter:         rouge
